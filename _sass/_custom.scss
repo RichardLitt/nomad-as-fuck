@@ -25,12 +25,13 @@ body#index {
   p {
   text-align: left;
   }
-  img.post-image {
-    max-width:400px;
-    max-height:400px;
-    margin: 0px auto 30px;
-    border-radius: 50%;
-  }
+}
+
+img.post-image {
+  max-width:400px;
+  max-height:400px;
+  margin: 0px auto 30px auto;
+  border-radius: 50%;
 }
 
 .wrapper {
