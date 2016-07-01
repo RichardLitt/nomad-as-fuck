@@ -60,6 +60,18 @@
           <div class="posts" style="padding:100px 0px;">
             {% for post in site.posts | sort: 'date' %}
               <a href="{{ BASE_PATH }}{{ post.url }}" style="height: 50px;line-height:50px;">
+                <h2 style="text-align: center;padding-bottom: 60px;">{{ post.title }}</h2>
+              </a><br />
+
+              {{ post.content }}
+            {% endfor %}
+          </div>
+
+          <hr style='width:50%;2px solid #eee'/>
+
+          <div class="posts" style="padding:100px 0px;">
+            {% for post in site.posts | sort: 'date' %}
+              <a href="{{ BASE_PATH }}{{ post.url }}" style="height: 50px;line-height:50px;">
                 <b>{{ post.title }}</b> - {{ post.author | split:" " | first }}, {{post.date | date_to_string }}
               </a><br />
             {% endfor %}

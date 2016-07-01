@@ -8,7 +8,9 @@ date: 2016-07-01-16-51
 ---
 {% include JB/setup %}
 
-So, Santa Claus. Talk about RAF. 
+![Santa]({{site_url}}/assets/img/posts/santa_claus.jpg)
+
+So, Santa Claus. Talk about RAF.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
