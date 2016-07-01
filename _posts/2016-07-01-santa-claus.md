@@ -5,10 +5,9 @@ author: Richard Littauer
 category: post
 tags: []
 date: 2016-07-01-16-51
+image: santa_claus.jpg
 ---
 {% include JB/setup %}
-
-![Santa]({{site_url}}/assets/img/posts/santa_claus.jpg)
 
 So, Santa Claus. Talk about RAF.
 

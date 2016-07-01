@@ -20,6 +20,19 @@ body#index {
   max-width: 900px;
 }
 
+.posts {
+  text-align: center;
+  p {
+  text-align: left;
+  }
+  img.post-image {
+    max-width:400px;
+    max-height:400px;
+    margin: 0px auto 30px;
+    border-radius: 50%;
+  }
+}
+
 .wrapper {
   margin-top: 20px;
 }
