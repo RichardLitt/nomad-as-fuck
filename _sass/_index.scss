@@ -10,11 +10,12 @@ $leftPadding: 15px;
     color: $white;
     text-align: center;
     .banner-title {
-      padding-top: 150px;
-      font-size: 4em;
+      padding-top: 100px;
+      font-size: 8em;
+      letter-spacing: -5px;
     }
     .banner-tagline {
-      font-size: 2em;
+      font-size: 4em;
       color: $white;
     }
   }
