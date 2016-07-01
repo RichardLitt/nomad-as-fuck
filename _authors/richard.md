@@ -8,7 +8,7 @@ outbound: http://burntfen.com
 twitter: richlitt
 instagram: richlittv3
 medium: richlitt
-email: richard.littauer+remote-as-fuck@gmail.com
+email: richard.littauer+remoteasfuck@gmail.com
 ---
 {% include JB/setup %}
 
