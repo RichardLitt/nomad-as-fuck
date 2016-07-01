@@ -1,0 +1,33 @@
+<a href="{{ page.outbound }}">
+  <h1 class="project-page-title">{{ page.full_name }}</h1>
+</a>
+
+<div id="author-page" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-sm-4">
+      <a href="{{ page.outbound }}">
+        <img class="project-image" src="{{ BASE_PATH}}/assets/img/authors/{{ page.image }}" />
+      </a>
+    </div>
+    <div class="col-sm-8">
+      {{ content }}
+      <hr />
+      <div class='social-media'>
+        <a href="{{ page.outbound }}"><i class="fa fa-globe" title="Website"></i></a>
+        {% if page.email %}
+          <a href="mailto:{{ page.email }}"><i class="fa fa-envelope" title="Email"></i></a>
+        {% endif %}
+        {% if page.twitter %}
+        <a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter" title="Twitter"></i></a>
+        {% endif %}
+        {% if page.medium %}
+        <a href="https://medium.com/@{{ page.medium }}"><i class="fa fa-medium" title="Medium"></i></a>
+        {% endif %}
+        {% if page.instagram %}
+        <a href="https://instagram.com/{{ page.instagram }}/"><i class="fa fa-instagram" title="Instagram"></i></a>
+        {% endif %}
+      </div>
+    </div>
+    <hr>
+  </div>
+</div>

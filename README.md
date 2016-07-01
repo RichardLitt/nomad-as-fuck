@@ -3,5 +3,18 @@ Remote as Fuck
 
 > Home for remoteasfuck.com
 
+### Install
+
+Clone this repo.
+
+Run:
+
+```
+npm i
+```
+
+### Images
+
+Add images to `src/`. Then, run `gulp`. This will minify them and put them into assets.
 
 

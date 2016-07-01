@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="copyright" content="&copy; {{ site.author.name }} 2016">
+    <meta name="description" content="People Who Are Remote As Fuck">
+
+    <meta property="og:description" content="People Who Are Remote As Fuck" />
+    <meta property="og:url" content="http://remoteasfuck.com/" />
+    <meta property="og:site_name" content="Remote As Fuck" />
+    <meta property="og:title" content="Re" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ BASE_PATH}}/assets/img/sf-card.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="850" />
+    <meta property="og:image:height" content="459" />
+
+    <!-- Twitter: card tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@remoteasfuck" />
+    <meta name="twitter:title" content="Remote As Fuck">
+    <meta name="twitter:description" content="People Who Are Remote As Fuck">
+    <meta name="twitter:image" content="{{ BASE_PATH}}/assets/img/sf-card.jpg">
+
+    <!-- Open Source Protocol -->
+    <link rel="profile" href="http://osprotocol.com" />
+    <meta property="os:repo" content="https://github.com/RichardLitt/remote-as-fuck" />
+    <meta property="os:rcs_type" content="git" />
+    <meta property="os:src" content="git@github.com:RichardLitt/remote-as-fuck.git" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="{{ BASE_PATH }}/assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="{{ BASE_PATH }}/assets/css/custom.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body id="index">
+    <div class="banner">
+      <p class='banner-title'>Remote As Fuck</p>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="col-md-8 col-md-offset-2">
+
+          <div class="about" style="font-size: 1.5em; padding: 50px 0px;">
+            TODO
+          </div>
+
+          <hr style='width:50%;2px solid #eee'/>
+
+          <div class="posts" style="padding:100px 0px;">
+            {% for post in site.posts | sort: 'date' %}
+              <a href="{{ BASE_PATH }}{{ post.url }}" style="height: 50px;line-height:50px;">
+                <b>{{ post.title }}</b> - {{ post.author | split:" " | first }}, {{post.date | date_to_string }}
+              </a><br />
+            {% endfor %}
+            <!-- <a class="more" href="/archive">More posts...</a> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper" id="contact" >
+      <div class="container">
+          <div class="row col-md-12 press" >
+            <div class="authors">
+              <div class="row col-md-8 col-md-offset-2 projects" style="margin-bottom:100px;">
+
+                <h3 style="margin:50px 0px; text-align:center;">Authors</h3>
+                {% for author in site.authors %}
+                  <div class="col-xs-6 col-sm-6 col-md-6" style="padding-bottom:60px;">
+                      <div class="img-container" style="max-width: 60%; margin: 0px auto;">
+                        <a href="{{BASE_PATH}}{{ author.url }}">
+                          <img src="{{BASE_PATH}}/assets/img/authors/{{ author.image }}" style="border-radius: 50%" class="card-image"/>
+                        </a>
+                      </div>
+                      <a class="project-title" href="{{ BASE_PATH }}{{ author.url }}">
+                        <h4>
+                          {{ author.full_name }}
+                        </h4>
+                      </a>
+                    </div>
+                    <div class="clearfix visible-sm-block"></div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="row" style="font-size: 1.5em; padding: 50px 0px; text-align: center;">
+            <div class="col-md-8 col-md-offset-2">
+             If you would like to write here, or if you have any thing else you would like to talk about, <a href="mailto:richard.littauer+remote-as-fuck@gmail.com" style="color: #FFF; text-decoration: underline; font-weight: 400;">get in touch</a>.
+             </div>
+          </div>
+
+          <footer>
+            <p>{{ site.author.name }} &copy; <script type="text/javascript">document.write(new Date().getFullYear())</script>.
+              <a href="https://github.com/RichardLitt/remote-as-fuck" style="color:#FFF;">Source</a>.
+            </p>
+          </footer>
+        </div>
+      <div class="push"></div>
+
+
+    </div> <!-- /container -->
+
+  </div> <!-- /wrapper -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+    {% include JB/analytics %}
+
+  </body>
+</html>

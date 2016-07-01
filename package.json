@@ -1,0 +1,24 @@
+{
+  "name": "remote-as-fuck",
+  "version": "1.0.0",
+  "description": "Just a website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardLitt/remote-as-fuck.git"
+  },
+  "author": "Richard Littauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardLitt/remote-as-fuck/issues"
+  },
+  "homepage": "https://github.com/RichardLitt/remote-as-fuck#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.1",
+    "imagemin-pngquant": "^5.0.0"
+  }
+}

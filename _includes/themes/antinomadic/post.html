@@ -1,0 +1,70 @@
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+  <div class='author-section' style="height:70px; margin: 20px 0px 20px 30px; border-bottom: 1px solid #999;">
+    {% assign name = page.author %}
+    {% for author in site.authors %}
+      {% if author.full_name == name %}
+    <div class="image-container" style="float:left; margin-right:20px;">
+      <a href="{{ BASE_PATH }}/author/{{ author.name }}">
+        <img src="{{ BASE_PATH }}/assets/img/authors/{{ author.image }}" style="height:50px;border-radius:50%;"/>
+      </a>
+    </div>
+    <div class="author-stuff" style="float:left;">
+      <p style="margin-top: 0px;">
+        Written by <a href="{{ BASE_PATH }}/author/{{ author.name }}">{{ page.author }}</a><br />
+        Published <i>{{ page.date | date_to_long_string }}</i>
+      </p>
+    </div>
+      {% endif %}
+    {% endfor %}
+    {% if page.category == "guest post" %}
+    <!-- Remove me when guest posters have their own profiles -->
+    <div class="author-stuff" style="float:left;">
+      <p style="margin-top: 0px;">
+        Written by {{ page.author }}<br />
+        Published <i>{{ page.date | date_to_long_string }}</i>
+      </p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-8 post">
+      {{ content }}
+      <hr>
+      <div class="pagination">
+        <ul style="list-style: none;">
+        {% if page.previous %}
+          <li class="prev" style="display: inline;"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+        {% else %}
+          <!-- li class="prev disabled" style="display: inline;"><a>&larr; Previous</a></li> -->
+        {% endif %}
+          <li style="display: inline;"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archive&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+        {% if page.next %}
+          <li class="next" style="display: inline;"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+        {% else %}
+          <!-- li class="next disabled" style="display: inline;"><a>Next &rarr;</a> -->
+        {% endif %}
+        </ul>
+      </div>
+      <hr>
+      {% include JB/comments %}
+    </div>
+    
+    <!-- 
+    <div class="col-md-4">
+      <h4>Published</h4>
+
+    {% unless page.tags == empty %}
+      <h4>Tags</h4>
+      <ul class="tag_box">
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+      </ul>
+    {% endunless %}  
+    </div>
+    --> 
+  </div>
+</div>

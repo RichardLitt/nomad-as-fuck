@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+    <title>Remote As Fuck</title>
+    <meta property="og:title" content="Remote As Fuck" />
+    <meta name="twitter:title" content="Remote As Fuck">
+    {% endif %}
+
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}">
+      <meta property="og:description" content="{{ page.description }}" />
+      <meta name="twitter:description" content="{{ page.description }}">
+    {% elsif page.title and page.author %}
+      <meta name="description" content="A new post by {{ page.author }} on Remote As Fuck">
+      <meta property="og:description" content="A new post by {{ page.author }} on Remote As Fuck">
+      <meta name="twitter:description" content="A new post by {{ page.author }} on Remote As Fuck">
+    {% else %}
+      <meta property="og:description" content="People Who Are Remote As Fuck">
+      <meta name="twitter:description" content="People Who Are Remote As Fuck">
+      <meta name="description" content="People Who Are Remote As Fuck">
+    {% endif %}
+
+    {% if page.author %}
+    <meta name="author" content="{{ page.author }}">
+    <meta name="copyright" content="&copy; {{ page.author }} 2016">
+    {% else %}
+    <meta name="copyright" content="&copy; {{ site.author.name }} 2016">
+    <meta name="author" content="{{ site.author.name }}">
+    {% endif %}
+
+    <meta property="og:url" content="{{ BASE_PATH }}{{ page.url }}" />
+    <meta property="og:site_name" content="Remote As Fuck" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ BASE_PATH}}/assets/img/sf-card.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="850" />
+    <meta property="og:image:height" content="459" />
+
+    <!-- Twitter: card tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@remoteasfuck" />
+    <meta name="twitter:image" content="{{ BASE_PATH}}/assets/img/sf-card.jpg">
+
+    <!-- Open Source Protocol -->
+    <link rel="profile" href="http://osprotocol.com" />
+    <meta property="os:repo" content="https://github.com/RichardLitt/remote-as-fuck" />
+    <meta property="os:rcs_type" content="git" />
+    <meta property="os:src" content="git@github.com:RichardLitt/remote-as-fuck.git" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="{{ BASE_PATH }}/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ BASE_PATH }}/assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-static-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="{{ HOME_PATH }}">⥢ &nbsp; Remote As Fuck</a>
+         </div> <!-- /container -->
+       </div> <!-- /navbar-inner -->
+     </div> <!-- /navbar -->
+
+    <div class="wrapper">
+
+    <div class="container subpage">
+
+      <div class="content">
+        {{ content }}
+      </div>
+
+
+      <footer>
+        <p>{{ site.author.name }} &copy; <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>.
+          <a href="https://github.com/RichardLitt/remote-as-fuck">Source</a>.
+        </p>
+      </footer>
+    <div class="push"></div>
+
+    </div> <!-- /container -->
+
+  </div> <!-- /wrapper -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="{{ HOME_PATH }}assets/js/jquery.js"></script>
+    <script src="{{ HOME_PATH }}assets/js/bootstrap.min.js"></script>
+
+    {% include JB/analytics %}
+
+  </body>
+</html>
