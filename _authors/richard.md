@@ -12,10 +12,8 @@ email: richard.littauer+remoteasfuck@gmail.com
 ---
 {% include JB/setup %}
 
-I grew up in New England, and then lived in Europe for seven years, first doing my undergraduate in Edinburgh, and then for two years in Germany and Malta and Switzerland. I returned after seven years to live permanently in the US, first in Brooklyn, and then SF, before heading back out for three months to South East Asia. I’ve recently moved back to Boston, and I’ve started settling in. I’m starting to buy books without worrying about carrying them around or getting a storage unit. I’m dealing with family relationships I’ve let slip, trying to find friends in a new city that I would have known, if I’d lived here.
+I'm a nomad. I grew up in New England, and then lived in Europe for seven years, first doing my undergraduate in Edinburgh, and then for two years in Germany and Malta and Switzerland. I returned to living permanently in the US, first in Brooklyn, and then SF, before heading back out for three months to South East Asia. I’ve recently moved back to Boston. I’ve got books and a bed and stuff.
 
-Being nomadic is great, especially if you’re lucky enough to be a technomad, like I was for the last few years. But coming back is hard.
+At some point recently, I also realized that I am no longer remote as fuck. And I miss that. So, I got on a flight. And made this site In Portogal. In an hour. With Izzy.
 
-Hopefully, sharing my thoughts will make it easier for you. I hope so.
-
-TODO!
+People think that being a remote worker just means telecommuting in your PJs. I want to dispell that notion and point out the awesome in the universe. Let's go.
