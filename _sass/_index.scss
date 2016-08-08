@@ -1,6 +1,12 @@
 $leftPadding: 15px;
 
 #index {
+  .authors h3 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+  }
+  .about {
+    font-family: 'Gentium Basic', serif;
+  }
   .banner {
     background-image: url(/assets/img/banner.jpg);
     background-position: center center;
@@ -39,6 +45,11 @@ $leftPadding: 15px;
     // margin-bottom: 200px;
     // padding-left: $leftPadding;
     font-size: 2em;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    p {
+      text-align: left;
+    }
     a {
       color: #666;
       font-weight: 400;
@@ -84,6 +95,7 @@ $leftPadding: 15px;
 
   a.project-title {
     text-align: center;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     h4 {
       padding: 10px 0;
       margin: 0;

@@ -44,6 +44,7 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
   </head>
   <body id="index">
     <div class="banner">
@@ -61,13 +62,13 @@
 
           <hr style='width:50%; border-top: 2px solid #474747'/>
 
-          <div class="posts" style="padding:80px 0px;">
+          <div class="post" style="padding:80px 0px;">
             {% for post in site.posts | sort: 'date' %}
-              <a href="{{ BASE_PATH }}{{ post.url }}" style="height: 50px;line-height:50px;">
-                <h2 style="text-align: center;padding-bottom: 60px;">{{ post.title }}</h2>
-              </a><br />
-
               <img src="{{BASE_PATH}}/assets/img/posts/{{ post.image }}" class="post-image" />
+
+              <a href="{{ BASE_PATH }}{{ post.url }}" style="height: 50px;line-height:50px;">
+                <a href="{{ post.link }}"><h1 style="text-align: center;padding-bottom: 30px;">{{ post.title }}</h1></a>
+              </a><br />
 
               {{ post.content }}
             {% endfor %}
@@ -94,7 +95,7 @@
             <div class="authors">
               <div class="row col-md-8 col-md-offset-2 projects" style="margin-bottom:100px;">
 
-                <h3 style="margin:50px 0px; text-align:center;">Authors</h3>
+                <h3 style="margin:50px 0px; text-align:center;">Curators</h3>
                 {% for author in site.authors %}
                   <div class="col-xs-6 col-sm-6 col-md-6" style="padding-bottom:60px;">
                       <div class="img-container" style="max-width: 60%; margin: 0px auto;">
