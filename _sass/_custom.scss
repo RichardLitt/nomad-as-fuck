@@ -1,3 +1,5 @@
+$white: #FFF;
+
 /* Override some defaults */
 html,
 body {
@@ -36,7 +38,7 @@ img.post-image {
     padding-bottom: 1px;
     text-decoration: none;
     &:hover {
-      color: #666;
+      color: red;
       text-decoration: none;
     }
   }
@@ -61,7 +63,7 @@ img.post-image {
 }
 
 .brand {
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-size: 20px;
   font-weight: 100;
@@ -209,10 +211,13 @@ a {
 }
 
 #author-page {
+  font-family: 'Gentium Basic', serif;
+  font-size: 18px;
   .project-image {
     max-width: 100%;
     border-radius: 50%;
   }
+
   h4 {
     margin-top: 0;
   }
@@ -220,68 +225,13 @@ a {
     font-size: 18px;
     font-weight: 200;
   }
-}
-
-a.author-link {
-  color: #666;
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: underline;
-  font-family: 'Gentium Basic', serif;
-  &:hover {
-    color: red;
-  }
-}
-
-@media (max-width: 767px) {
-  .wrapper {
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .brand {
-    text-align: center;
-  }
-  #title {
-    width: 200px;
-    text-align: center;
-    margin: 50px auto;
-    padding: 10px 0px;
-
-  }
-  .title {
-    margin: 50px 0px;
-    text-align: center;
-  }
-  .text-box {
-    h4 {
-      text-align: center;
-      padding-top: 20px;
-    }
-    p {
-      padding-top: 10px;
-    }
-  }
-  #author-page {
-    h1 {
-      text-align: center;
-      margin-top: 20px;
-    }
-    p {
-      font-size: 1.2em;
-    }
-    .project-image {
-      max-width: 200px;
-      margin: 20px auto;
+  a {
+    color: #666;
+    &:hover {
+      color: red
     }
   }
 }
-
-.project-page-title {
-  margin-left: 30px;
-}
-
-$white: #FFF;
 
 .social-media {
   margin: 3% 0;
@@ -290,8 +240,9 @@ $white: #FFF;
   padding: 0 20px 0 0;
   color: #000;
   font-size: 20px;
-  &:hover, &:visited {
+  &:hover {
     text-decoration: none;
+    color: red;
   }
 }
 
