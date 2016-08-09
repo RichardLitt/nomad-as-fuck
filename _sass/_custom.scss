@@ -168,34 +168,6 @@ h1 {
   }
 }
 
-/* ===================== Manual resets ========================== */
-
-
-#title {
-  width: 530px;
-  font-size: 21px;
-  font-family: Helvetica;
-  font-weight: 300;
-  line-height: 20px;
-  letter-spacing: -1px;
-  margin: 20px auto;
-  text-align: center;
-  color: #099;
-  padding: 10px 100px 3px 100px;
-  border-bottom: 3px double #099;
-}
-.menu {
-  margin: 5px 0px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  padding: 0px;
-  /* box-shadow: inset 0 0 20px #000000; */
-  filter: alpha(opacity=8);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  opacity: 0.8;
-}
 a {
   color: black;
   cursor: pointer;
@@ -227,13 +199,6 @@ a {
   }
 }
 
-.random {
-  position: relative;
-  margin-top: 30px;
-  font-family: Helvetica;
-  font-weight: 200;
-  font-size: 17px;
-}
 .title {
   margin: 80px auto 25px 100px;
   font-size: 30px;
