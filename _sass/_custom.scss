@@ -131,10 +131,19 @@ h1 {
 }
 
 .post {
+  font-family: 'Gentium Basic', serif;
   list-style: none;
   text-align: center;
-  // margin-bottom: 200px;
-  // padding-left: $leftPadding;
+  a.post-title {
+    height: 50px;
+    line-height:50px;
+    text-align: center;
+    padding-bottom: 30px;
+    text-decoration: none;
+    &:hover, &.more:hover {
+      color: red;
+    }
+  }
   h3 {
     font-family: 'Open Sans', Helvetica, sans-serif;
     text-align: left;
@@ -142,7 +151,6 @@ h1 {
     font-weight: 600;
     padding-top: 20px;
   }
-  font-family: 'Gentium Basic', serif;
   a {
     color: #666;
     font-weight: 400;
@@ -434,7 +442,7 @@ hr.divider {
         padding: 0 15px 0 0;
       }
     }
-    a.project-title {
+    a.author-name {
       h4 {
         height: 60px;
         overflow: hidden;

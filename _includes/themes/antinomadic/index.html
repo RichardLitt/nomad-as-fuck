@@ -78,9 +78,9 @@
 
           <hr class="divider" />
 
-          <div class="posts" style="padding:80px 0px;">
+          <div class="posts">
             {% for post in site.posts | sort: 'date' %}
-              <a href="{{ BASE_PATH }}{{ post.url }}" style="height: 50px;line-height:50px;">
+              <a href="{{ BASE_PATH }}{{ post.url }}">
                 <b>{{ post.title }}</b> - {{post.date | date_to_string }}
               </a><br />
             {% endfor %}
@@ -105,7 +105,7 @@
                           <img src="{{BASE_PATH}}/assets/img/authors/{{ author.image }}" style="border-radius: 50%" class="card-image"/>
                         </a>
                       </div>
-                      <a class="project-title" href="{{ BASE_PATH }}{{ author.url }}">
+                      <a class="author-name" href="{{ BASE_PATH }}{{ author.url }}">
                         <h4>
                           {{ author.full_name }}
                         </h4>
