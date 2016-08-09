@@ -235,6 +235,17 @@ a {
   }
 }
 
+a.author-link {
+  color: #666;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+  font-family: 'Gentium Basic', serif;
+  &:hover {
+    color: red;
+  }
+}
+
 @media (max-width: 767px) {
   .wrapper {
     margin-left: 0px;
