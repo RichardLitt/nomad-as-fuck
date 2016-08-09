@@ -455,3 +455,28 @@ hr.divider {
     }
   }
 }
+
+/* Edit the subscribe form */
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #111;
+  &:hover {
+    color: red;
+    border-color: red;
+  }
+}
