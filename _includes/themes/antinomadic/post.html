@@ -8,25 +8,6 @@
   <div class="row-fluid">
     <div class="col-md-12 post">
       {{ content }}
-      <hr>
-      <div class="pagination">
-        <ul style="list-style: none;">
-        {% if page.previous %}
-          <li class="prev" style="display: inline;"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-        {% else %}
-          <!-- li class="prev disabled" style="display: inline;"><a>&larr; Previous</a></li> -->
-        {% endif %}
-          <li style="display: inline;"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archive&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        {% if page.next %}
-          <li class="next" style="display: inline;"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-        {% else %}
-          <!-- li class="next disabled" style="display: inline;"><a>Next &rarr;</a> -->
-        {% endif %}
-        </ul>
-      </div>
-      <hr>
-      {% include JB/comments %}
     </div>
-
   </div>
 </div>
