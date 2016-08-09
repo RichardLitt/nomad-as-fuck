@@ -287,12 +287,17 @@ $white: #FFF;
   padding: 0 20px 0 0;
   color: #000;
   font-size: 20px;
-}
-.social-media a:hover, .social-media a:visited {
-  text-decoration: none;
+  &:hover, &:visited {
+    text-decoration: none;
+  }
 }
 
 $leftPadding: 15px;
+
+hr.divider {
+  width:50%;
+  border-top: 2px solid #474747;
+}
 
 #index {
   .authors h3 {
