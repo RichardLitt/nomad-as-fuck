@@ -1,4 +1,5 @@
 $white: #FFF;
+$leftPadding: 15px;
 
 /* Override some defaults */
 html,
@@ -13,22 +14,34 @@ body#index {
     background-color: #FFFFFF;
   }
 }
+.wrapper {
+  margin-top: 20px;
+}
+
+.container > footer p {
+  text-align: center;
+  /* center align it with the container */
+}
+footer {
+  margin: 0px auto 20px auto;
+  text-align: center;
+}
+footer img {
+  margin-bottom: 20px;
+}
+.container {
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+  min-width: 20px;
+}
 
 /* Used for the default page width */
 .subpage {
   max-width: 900px;
 }
 
-img.post-image {
-  max-width:300px;
-  max-height:300px;
-  margin: 0px auto;
-  border-radius: 50%;
-}
-
-.wrapper {
-  margin-top: 20px;
-}
+/* Navbar */
 .navbar {
   margin-bottom: 0;
   a.brand {
@@ -71,26 +84,6 @@ img.post-image {
   letter-spacing: -1px;
 }
 
-li {
-  padding: 3px auto;
-}
-.container > footer p {
-  text-align: center;
-  /* center align it with the container */
-}
-footer {
-  margin: 0px auto 20px auto;
-  text-align: center;
-}
-footer img {
-  margin-bottom: 20px;
-}
-.container {
-  -webkit-border-radius: 6px 6px 6px 6px;
-  -moz-border-radius: 6px 6px 6px 6px;
-  border-radius: 6px 6px 6px 6px;
-  min-width: 20px;
-}
 /* Page header tweaks */
 .page-header {
   border-bottom: 0px;
@@ -121,12 +114,86 @@ footer img {
   padding-right: 10px;
   width: 100px;
 }
+
+/* ===== Element fixes ===== */
 h1 {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 25px;
   line-height: 35px;
   -webkit-font-smoothing: antialiased;
   letter-spacing: -1px;
+}
+
+li {
+  padding: 3px auto;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 600;
+  &:hover {
+    color: red;
+  }
+  &.author-link {
+    color: #666;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Gentium Basic', serif;
+    &:hover {
+      color: red;
+    }
+  }
+  &.author-page-title {
+    text-decoration: none;
+    h1 {
+      margin-left: 30px;
+    }
+  }
+  &.muted-footer-link {
+    color: #666;
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+hr.divider {
+  width:50%;
+  border-top: 2px solid #474747;
+}
+
+/* ====== Divs and Ids ===== */
+
+img.post-image {
+  max-width:300px;
+  max-height:300px;
+  margin: 0px auto;
+  border-radius: 50%;
+}
+
+#author-page {
+  font-family: 'Gentium Basic', serif;
+  font-size: 18px;
+  .project-image {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+  .role {
+    font-size: 18px;
+    font-weight: 200;
+  }
+  a {
+    color: #666;
+    &:hover {
+      color: red
+    }
+  }
 }
 
 .post {
@@ -170,37 +237,6 @@ h1 {
   }
 }
 
-a {
-  color: black;
-  cursor: pointer;
-  text-decoration: underline;
-  font-weight: 600;
-  &:hover {
-    color: red;
-  }
-  &.author-link {
-    color: #666;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Gentium Basic', serif;
-    &:hover {
-      color: red;
-    }
-  }
-  &.author-page-title {
-    text-decoration: none;
-    h1 {
-      margin-left: 30px;
-    }
-  }
-  &.muted-footer-link {
-    color: #666;
-    &:hover {
-      color: red;
-    }
-  }
-}
-
 .title {
   margin: 80px auto 25px 100px;
   font-size: 30px;
@@ -210,49 +246,20 @@ a {
   border-bottom: 1px thick #33666;
 }
 
-#author-page {
-  font-family: 'Gentium Basic', serif;
-  font-size: 18px;
-  .project-image {
-    max-width: 100%;
-    border-radius: 50%;
-  }
-
-  h4 {
-    margin-top: 0;
-  }
-  .role {
-    font-size: 18px;
-    font-weight: 200;
-  }
+.social-media {
+  margin: 3% 0;
   a {
-    color: #666;
+    padding: 0 20px 0 0;
+    color: #000;
+    font-size: 20px;
     &:hover {
-      color: red
+      text-decoration: none;
+      color: red;
     }
   }
 }
 
-.social-media {
-  margin: 3% 0;
-}
-.social-media a {
-  padding: 0 20px 0 0;
-  color: #000;
-  font-size: 20px;
-  &:hover {
-    text-decoration: none;
-    color: red;
-  }
-}
-
-$leftPadding: 15px;
-
-hr.divider {
-  width:50%;
-  border-top: 2px solid #474747;
-}
-
+/* ===== Index Page ===== */
 #index {
   .authors h3 {
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -418,7 +425,7 @@ input[type="submit"] {
   }
 }
 
-
+/* ===== Media Queries ===== */
 @media (max-width: 767px) {
   .wrapper {
     margin-left: 0px;
