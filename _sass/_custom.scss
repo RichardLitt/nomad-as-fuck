@@ -432,6 +432,16 @@ hr.divider {
     background-color:#111;
     color:#FFF;
   }
+
+  a.alt-link {
+    color: #FFF;
+    // text-decoration: underline;
+    font-weight: 400;
+    &:hover {
+      color: red;
+    }
+  }
+
 }
 
 @media (max-width: 767px) {
