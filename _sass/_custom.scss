@@ -204,6 +204,27 @@ a {
   &:hover {
     color: red;
   }
+  &.author-link {
+    color: #666;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Gentium Basic', serif;
+    &:hover {
+      color: red;
+    }
+  }
+  &.author-page-title {
+    text-decoration: none;
+    h1 {
+      margin-left: 30px;
+    }
+  }
+  &.muted-footer-link {
+    color: #666;
+    &:hover {
+      color: red;
+    }
+  }
 }
 
 .random {
