@@ -163,44 +163,9 @@ h1 {
   }
 }
 
-/* tag_box ======================================================== */
-.tag_box {
-  list-style: none;
-  margin: 0;
-  padding: 5px 0 ;
-  overflow: hidden;
-  a {
-    padding: 3px auto;
-    margin: 2px;
-    background: #eee;
-    color: #005F6B;
-    border-radius: 3px;
-    text-decoration: none;
-    &.active {
-      background: #57A957;
-      border: 1px solid #4C964D;
-      color: #FFF;
-    }
-    span {
-      vertical-align: super;
-      font-size: 0.8em;
-    }
-  }
-  li {
-    line-height: 28px;
-  }
-  &.inline li {
-    float: left;
-  }
-}
 /* ===================== Manual resets ========================== */
 
-#avatar {
-  width: 200px;
-  margin: 0 auto;
-  border-radius: 50%;
-  border: 3px double #099;
-}
+
 #title {
   width: 530px;
   font-size: 21px;
@@ -273,9 +238,6 @@ a {
   }
   .brand {
     text-align: center;
-  }
-  #avatar {
-    margin-top: 50px;
   }
   #title {
     width: 200px;
