@@ -10,10 +10,6 @@ body#index {
   .wrapper {
     background-color: #FFFFFF;
   }
-  a:hover {
-    text-decoration: none;
-    color: red;
-  }
 }
 
 /* Used for the default page width */
@@ -202,12 +198,13 @@ h1 {
 a {
   color: black;
   cursor: pointer;
+  text-decoration: underline;
   font-weight: 600;
-  text-decoration: none;
   &:hover {
     color: red;
   }
 }
+
 .random {
   position: relative;
   margin-top: 30px;
@@ -338,19 +335,16 @@ hr.divider {
   h1 {
     font-size: 2em;
     margin: 10% 0 0 $leftPadding;
-    color: #444;
   }
 
   h2 {
     font-size: 1.5em;
     margin: 0 0 0 $leftPadding;
-    color: #666;
   }
 
   .posts {
     list-style: none;
-    // margin-bottom: 200px;
-    // padding-left: $leftPadding;
+    padding:80px 0px;
     font-size: 2em;
     text-align: center;
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -358,8 +352,11 @@ hr.divider {
       text-align: left;
     }
     a {
+      height: 50px;
+      line-height: 50px;
       color: #666;
       font-weight: 400;
+      text-decoration: none;
       &.more {
         color: #888;
         font-weight: 600;
@@ -400,23 +397,26 @@ hr.divider {
     margin-bottom:50px;
   }
 
-  a.project-title {
+  a.author-name {
     text-align: center;
+    text-decoration: none;
     font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #FFF;
     h4 {
       padding: 10px 0;
       margin: 0;
-      color: #FFF;
       font-size: 1.3em;
       font-style: normal;
       font-weight: 300;
       letter-spacing: .06em;
       height: auto;
-      text-decoration: none;
     }
     p {
       color: #666;
       margin: 0 0 60px 0;
+    }
+    &:hover {
+      color: red;
     }
   }
   .listen {
