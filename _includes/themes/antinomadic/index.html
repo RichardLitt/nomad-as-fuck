@@ -66,9 +66,11 @@
             {% for post in site.posts | sort: 'date' %}
               <img src="{{BASE_PATH}}/assets/img/posts/{{ post.image }}" class="post-image" />
 
-              <a href="{{ BASE_PATH }}{{ post.url }}" style="height: 50px;line-height:50px;">
-                <a href="{{ post.link }}"><h1 style="text-align: center;padding-bottom: 30px;">{{ post.title }}</h1></a>
-              </a><br />
+              <a href="{{ BASE_PATH }}{{ post.url }}" class="post-title">
+                <h1>{{ post.title }}</h1>
+              </a>
+
+              <br />
 
               {{ post.content }}
             {% endfor %}
