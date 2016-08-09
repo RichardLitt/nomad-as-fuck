@@ -439,30 +439,8 @@ hr.divider {
       color: red;
     }
   }
-
 }
 
-@media (max-width: 767px) {
-  #index {
-    .social-media {
-      margin: 20px 0 20px $leftPadding;
-      a {
-        padding: 0 15px 0 0;
-      }
-    }
-    a.author-name {
-      h4 {
-        height: 60px;
-        overflow: hidden;
-      }
-      p {
-        font-size: 12px;
-        height: 80px;
-        margin-bottom: 0px;
-      }
-    }
-  }
-}
 
 /* Edit the subscribe form */
 ::-webkit-input-placeholder {
@@ -486,5 +464,72 @@ input[type="submit"] {
   &:hover {
     color: red;
     border-color: red;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .wrapper {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .brand {
+    text-align: center;
+  }
+  #title {
+    width: 200px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px 0px;
+
+  }
+  .title {
+    margin: 50px 0px;
+    text-align: center;
+  }
+  .text-box {
+    h4 {
+      text-align: center;
+      padding-top: 20px;
+    }
+    p {
+      padding-top: 10px;
+    }
+  }
+  #author-page {
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    .project-image {
+      max-width: 200px;
+      margin: 20px auto;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #index {
+    .social-media {
+      margin: 20px 0 20px $leftPadding;
+      a {
+        padding: 0 15px 0 0;
+      }
+    }
+    a.author-name {
+      h4 {
+        height: 60px;
+        overflow: hidden;
+      }
+      p {
+        font-size: 12px;
+        height: 80px;
+        margin-bottom: 0px;
+      }
+    }
   }
 }
