@@ -18,7 +18,7 @@ San Diego, California
 
 Co-founder of [Moo.do](https://moo.do).
 
-### How is what you do remote?
+### How is what you do nomadic?
 
 My co-founder, Grant Watters, and I work together remotely on Moo.do. He lives in Seattle while I am traveling, usually living in each city for about a month. The time zone difference works well for us because one of us is always awake to handle customer support.
 

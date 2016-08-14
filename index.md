@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Remote As Fuck
+title: Nomad As Fuck
 tagline:
 ---
 {% include JB/setup %}

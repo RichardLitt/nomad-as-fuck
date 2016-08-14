@@ -8,9 +8,9 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta name="twitter:title" content="{{ page.title }}">
     {% else %}
-    <title>Remote As Fuck</title>
-    <meta property="og:title" content="Remote As Fuck" />
-    <meta name="twitter:title" content="Remote As Fuck">
+    <title>Nomad As Fuck</title>
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta name="twitter:title" content="{{ site.title }}">
     {% endif %}
 
     {% if page.description %}
@@ -18,13 +18,13 @@
       <meta property="og:description" content="{{ page.description }}" />
       <meta name="twitter:description" content="{{ page.description }}">
     {% elsif page.title and page.author %}
-      <meta name="description" content="A new post by {{ page.author }} on Remote As Fuck">
-      <meta property="og:description" content="A new post by {{ page.author }} on Remote As Fuck">
-      <meta name="twitter:description" content="A new post by {{ page.author }} on Remote As Fuck">
+      <meta name="description" content="A new post by {{ page.author }} on {{ site.title }}">
+      <meta property="og:description" content="A new post by {{ page.author }} on {{ site.title }}">
+      <meta name="twitter:description" content="A new post by {{ page.author }} on {{ site.title }}">
     {% else %}
-      <meta property="og:description" content="Showcasing the people behind the most badass remote jobs on Earth.">
-      <meta name="twitter:description" content="Showcasing the people behind the most badass remote jobs on Earth.">
-      <meta name="description" content="Showcasing the people behind the most badass remote jobs on Earth.">
+      <meta property="og:description" content="{{ site.tagline }}">
+      <meta name="twitter:description" content="{{ site.tagline }}">
+      <meta name="description" content="{{ site.tagline }}">
     {% endif %}
 
     {% if page.author %}
@@ -36,7 +36,7 @@
     {% endif %}
 
     <meta property="og:url" content="{{ BASE_PATH }}{{ page.url }}" />
-    <meta property="og:site_name" content="Remote As Fuck" />
+    <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="{{ BASE_PATH}}/assets/img/card.jpg" />
     <meta property="og:image:type" content="image/jpg" />
@@ -45,14 +45,14 @@
 
     <!-- Twitter: card tags -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@remoteasfuck" />
+    <meta name="twitter:site" content="{{ site.twitter }}" />
     <meta name="twitter:image" content="{{ BASE_PATH}}/assets/img/card.jpg">
 
     <!-- Open Source Protocol -->
     <link rel="profile" href="http://osprotocol.com" />
-    <meta property="os:repo" content="https://github.com/RichardLitt/remote-as-fuck" />
+    <meta property="os:repo" content="{{ site.github }}" />
     <meta property="os:rcs_type" content="git" />
-    <meta property="os:src" content="git@github.com:RichardLitt/remote-as-fuck.git" />
+    <meta property="os:src" content="{{ site.git_remote }}" />
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -76,7 +76,7 @@
     <div class="navbar navbar-static-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}">⥢ &nbsp; Remote As Fuck</a>
+          <a class="brand" href="{{ HOME_PATH }}">⥢ &nbsp; {{ site.title }}</a>
          </div> <!-- /container -->
        </div> <!-- /navbar-inner -->
      </div> <!-- /navbar -->
@@ -94,7 +94,7 @@
         <p>{{ site.author.name }} &copy; <script type="text/javascript">
           document.write(new Date().getFullYear());
         </script>.
-          <a href="https://github.com/RichardLitt/remote-as-fuck" class="muted-footer-link">Source</a>.
+          <a href="{{ site.github }}" class="muted-footer-link">Source</a>.
         </p>
       </footer>
     <div class="push"></div>

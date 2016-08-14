@@ -1,7 +1,7 @@
-Remote as Fuck
+Nomad as Fuck
 ==============
 
-> Home for remoteasfuck.com
+> Home for nomadasfuck.com
 
 ### Install
 

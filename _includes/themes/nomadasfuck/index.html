@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="{{ site.author.name }}">
     <meta name="copyright" content="&copy; {{ site.author.name }} 2016">
-    <meta name="description" content="Showcasing the people behind the most badass remote jobs on Earth.">
+    <meta name="description" content="{{ site.tagline }}">
 
-    <meta property="og:description" content="Showcasing the people behind the most badass remote jobs on Earth." />
-    <meta property="og:url" content="http://remoteasfuck.com/" />
-    <meta property="og:site_name" content="remoteasfuck.com" />
-    <meta property="og:title" content="Remote as Fuck" />
+    <meta property="og:description" content="{{ site.tagline }}" />
+    <meta property="og:url" content="http://nomadasfuck.com/" />
+    <meta property="og:site_name" content="nomadasfuck.com" />
+    <meta property="og:title" content="{{ site.title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="{{ BASE_PATH}}/assets/img/card.jpg" />
     <meta property="og:image:type" content="image/jpg" />
@@ -20,16 +20,16 @@
 
     <!-- Twitter: card tags -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@remoteasfuck" />
-    <meta name="twitter:title" content="Remote As Fuck">
-    <meta name="twitter:description" content="Showcasing the people behind the most badass remote jobs on Earth.">
+    <meta name="twitter:site" content="{{ site.twitter }}" />
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.tagline }}">
     <meta name="twitter:image" content="{{ BASE_PATH}}/assets/img/card.jpg">
 
     <!-- Open Source Protocol -->
     <link rel="profile" href="http://osprotocol.com" />
-    <meta property="os:repo" content="https://github.com/RichardLitt/remote-as-fuck" />
+    <meta property="os:repo" content="{{ site.github }}" />
     <meta property="os:rcs_type" content="git" />
-    <meta property="os:src" content="git@github.com:RichardLitt/remote-as-fuck.git" />
+    <meta property="os:src" content="{{ site.git_remote" />
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -48,16 +48,16 @@
   </head>
   <body id="index">
     <div class="banner">
-      <p class='banner-title'>REMOTE AS FUCK</p>
+      <p class='banner-title'>NOMAD AS FUCK</p>
     </div>
     <div class="wrapper">
       <div class="container">
         <div class="col-md-8 col-md-offset-2">
 
           <div class="about" style="font-size: 1.5em; padding: 50px 0px; text-align: center;">
-            Remote As Fuck showcases the faces behind some of the most remote positions you can imagine. Once a week, we'll post someone new. These are people who are either working in extremely remote places, or using remote technologies to accomplish amazing things.
+            Nomad As Fuck showcases the most badass nomads you can imagine. Once a week, we'll post someone new. These are people who are either dedicated to nomadism as a way of life, or using the nomadic lifestyle to up their game and become awesome as all hell.
             <br /><br />
-            People who are, well, remote as fuck.
+            People who are, well, nomad as fuck.
           </div>
 
           <hr style='width:50%; border-top: 2px solid #474747'/>
@@ -124,7 +124,7 @@
             <div id="mc_embed_signup">
             <form action="//getcapsule.us6.list-manage.com/subscribe/post?u=484f6104223b9e3d9944c2020&amp;id=9b33b2263c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                <div id="mc_embed_signup_scroll">
-                <h2>Get remote as fuck emails.</h2><br />
+                <h2>Get nomad as fuck emails.</h2><br />
             <div class="mc-field-group" style="padding-bottom: 20px;border-radius:5px;">
                 <input type="email" value="" name="EMAIL" class="required email" placeholder="Email address?" id="mce-EMAIL">
             </div>
@@ -143,13 +143,13 @@
 
           <div class="row" style="font-size: 1.5em; padding: 50px 0px; text-align: center;">
             <div class="col-md-8 col-md-offset-2">
-             If you know someone whose job is remote as fuck <a href="mailto:richard.littauer+remoteasfuck@gmail.com" class="alt-link">get in touch</a>.
+             If you know someone whose job is nomad as fuck <a href="mailto:{{ site.email }}" class="alt-link">get in touch</a>.
              </div>
           </div>
 
           <footer>
             <p>{{ site.author.name }} &copy; <script type="text/javascript">document.write(new Date().getFullYear())</script>.
-              <a href="https://github.com/RichardLitt/remote-as-fuck" class="alt-link">Source</a>.
+              <a href="{{ site.github }}" class="alt-link">Source</a>.
             </p>
           </footer>
         </div>

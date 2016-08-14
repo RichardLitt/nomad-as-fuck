@@ -1,6 +1,6 @@
 # This is the default format.
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:year-:month-:day/:title
+permalink: /:year-:month/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "node_modules", "src"]
 # auto: true
@@ -12,14 +12,17 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Remote As Fuck
-tagline: Showcasing the people behind the most badass remote jobs on Earth.
+title : Nomad As Fuck
+tagline: Showcasing the most badass nomads on the planet.
 author :
-  name : Remote As Fuck
-  email : richard.littauer+remoteasfuck@gmail.com
-  #github : RichardLitt
-  twitter : Remote As Fuck
+  name : Nomad As Fuck
+  email : richard.littauer+nomadasfuck@gmail.com
+  github : RichardLitt
+  twitter : "@nomadasfuck"
   #feedburner : feedname
+
+git_remote : git@github.com:RichardLitt/nomad-as-fuck.git
+github : https://github.com/RichardLitt/nomad-as-fuck
 
 collections:
   authors:
@@ -34,7 +37,7 @@ collections:
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://remoteasfuck.com
+production_url : http://nomadasfuck.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -63,7 +66,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://remoteasfuck.com
+  BASE_PATH : http://nomadasfuck.com
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]

@@ -1,5 +1,5 @@
 {
-  "name": "remote-as-fuck",
+  "name": "nomad-as-fuck",
   "version": "1.0.0",
   "description": "Just a website",
   "main": "gulpfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RichardLitt/remote-as-fuck.git"
+    "url": "git+https://github.com/RichardLitt/nomad-as-fuck.git"
   },
   "author": "Richard Littauer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RichardLitt/remote-as-fuck/issues"
+    "url": "https://github.com/RichardLitt/nomad-as-fuck/issues"
   },
-  "homepage": "https://github.com/RichardLitt/remote-as-fuck#readme",
+  "homepage": "https://github.com/RichardLitt/nomad-as-fuck#readme",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-imagemin": "^3.0.1",
