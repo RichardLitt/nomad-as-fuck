@@ -105,9 +105,9 @@
                 <h3 style="margin:50px 0px; text-align:center;">Made with <3 by:</h3>
                 {% for author in site.authors %}
                   <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3" style="padding-bottom:60px;">
-                      <div class="img-container" style="max-width: 60%; margin: 0px auto;">
+                      <div class="img-container">
                         <a href="{{BASE_PATH}}{{ author.url }}">
-                          <img src="{{BASE_PATH}}/assets/img/authors/{{ author.image }}" style="border-radius: 50%" class="card-image"/>
+                          <img src="{{BASE_PATH}}/assets/img/authors/{{ author.image }}" class="card-image"/>
                         </a>
                       </div>
                       <a class="author-name" href="{{ BASE_PATH }}{{ author.url }}">

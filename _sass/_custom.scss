@@ -166,13 +166,6 @@ hr.divider {
 
 /* ====== Divs and Ids ===== */
 
-img.post-image {
-  max-width:300px;
-  max-height:300px;
-  margin: 0px auto;
-  border-radius: 50%;
-}
-
 #author-page {
   font-family: 'Gentium Basic', serif;
   font-size: 18px;
@@ -329,6 +322,7 @@ img.post-image {
   }
 
   .card-image {
+    border-radius: 50%
     max-width: 100%;
     position: absolute;
     -webkit-filter: opacity(100%);
@@ -336,16 +330,27 @@ img.post-image {
     transition: -webkit-filter .25s;
   }
 
+  img.post-image {
+    max-width:300px;
+    max-height:300px;
+    margin: 0px auto;
+    border-radius: 50%;
+  }
+
   .img-container {
     position: relative;
     overflow:hidden;
+    margin: 0px auto;
     padding-bottom: 60%;
+    max-width: 60%;
     &:hover {
       -webkit-filter: opacity(60%);
     }
     a {
       padding: 0px;
     }
+
+
   }
 
   h1.section-header {
@@ -460,6 +465,15 @@ input[type="submit"] {
   }
 
   #index {
+
+    .post-image {
+      width: 75%;
+    }
+
+    .posts {
+      padding:60px 0px;
+      font-size: 1.5em;
+    }
     .banner .banner-title {
       text-align: center;
       font-size: 4em;
