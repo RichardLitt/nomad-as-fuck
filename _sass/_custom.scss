@@ -252,6 +252,13 @@ hr.divider {
   }
 }
 
+img.post-image {
+  max-width:300px;
+  max-height:300px;
+  margin: 0px auto;
+  border-radius: 50%;
+}
+
 /* ===== Index Page ===== */
 #index {
   .authors h3 {
@@ -328,13 +335,6 @@ hr.divider {
     -webkit-filter: opacity(100%);
     -webkit-transition: -webkit-filter .25s;
     transition: -webkit-filter .25s;
-  }
-
-  img.post-image {
-    max-width:300px;
-    max-height:300px;
-    margin: 0px auto;
-    border-radius: 50%;
   }
 
   .img-container {
