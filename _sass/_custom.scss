@@ -464,19 +464,21 @@ input[type="submit"] {
     }
   }
 
+  img.post-image {
+    width: 75%;
+  }
+
+  .post p {
+    font-size: 1.5em;
+  }
+
+
   #index {
-
-    .post-image {
-      width: 75%;
-    }
-
-    .posts {
-      padding:60px 0px;
-      font-size: 1.5em;
-    }
     .banner .banner-title {
       text-align: center;
       font-size: 4em;
+    }
+      font-size: 1.3em;
     }
     .social-media {
       a {
