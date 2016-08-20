@@ -18,9 +18,9 @@
       <meta property="og:description" content="{{ page.description }}" />
       <meta name="twitter:description" content="{{ page.description }}">
     {% elsif page.title and page.author %}
-      <meta name="description" content="A new post by {{ page.author }} on {{ site.title }}">
-      <meta property="og:description" content="A new post by {{ page.author }} on {{ site.title }}">
-      <meta name="twitter:description" content="A new post by {{ page.author }} on {{ site.title }}">
+      <meta name="description" content="A new post by {{ page.author }} is totally {{ site.title }}">
+      <meta property="og:description" content="{{ page.author }} is totally {{ site.title }}">
+      <meta name="twitter:description" content="{{ page.author }} is totally {{ site.title }}">
     {% else %}
       <meta property="og:description" content="{{ site.tagline }}">
       <meta name="twitter:description" content="{{ site.tagline }}">
