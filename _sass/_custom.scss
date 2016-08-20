@@ -322,7 +322,7 @@ hr.divider {
   }
 
   .card-image {
-    border-radius: 50%
+    border-radius: 50%;
     max-width: 100%;
     position: absolute;
     -webkit-filter: opacity(100%);
@@ -478,6 +478,7 @@ input[type="submit"] {
       text-align: center;
       font-size: 4em;
     }
+    .posts {
       font-size: 1.3em;
     }
     .social-media {
