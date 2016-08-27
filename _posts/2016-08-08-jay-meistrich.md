@@ -3,6 +3,8 @@ layout: post
 title: "Jay Meistrich"
 author: "Jay Meistrich"
 link: "http://mei.st"
+instagram: jayzus
+twitter: jmeistrich
 category: post
 tags: [digital nomad, remote worker, tech ]
 date: 2016-08-08-09-29
