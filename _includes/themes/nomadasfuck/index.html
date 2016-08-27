@@ -78,6 +78,14 @@
               <br />
 
               {{ post.content }}
+
+              {% if post.twitter or post.instagram %}
+              <h3 style="text-align: center;font-size: 1.5em;">Follow {{ post.author }} here:</h3>
+               <p class="social-media" style="text-align: center;">
+                {% if post.twitter %}<a href="https://twitter.com/{{ post.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if post.instagram %}<a href="https://instagram.com/{{ post.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
+              </p>
+              {% endif %}
+
             {% endfor %}
           </div>
 
