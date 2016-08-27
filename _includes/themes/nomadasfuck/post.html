@@ -1,9 +1,10 @@
 <div class="page-header" style="border-bottom: 1px solid #999; margin: 20px 0px 20px 30px;">
   <img src="{{ BASE_PATH }}/assets/img/posts/{{ page.image }}" class="post-image" />
   <h1>{{ page.title }}</h1>
-  <p class="social-media post-sm" style="padding-left: 0px;">
-    <a href="https://twitter.com/{{ post.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> <a href="https://instagram.com/{{ post.instagram }}"><i class="fa fa-instagram"></i></a>
+  {% if post.twitter or post.instagram %}<p class="social-media post-sm" style="padding-left: 0px;">
+    {% if post.twitter %}<a href="https://twitter.com/{{ post.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if post.instagram %}<a href="https://instagram.com/{{ post.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
   </p>
+  {% endif %}
   <h4>
     <a href="{{page.link}}" class="author-link">{{ page.link }}</a>
   </h4>
