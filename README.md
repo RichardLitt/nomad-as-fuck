@@ -32,4 +32,4 @@ Go to `localhost:4000`.
 
 ## License
 
-MIT for the website, and CC-BY-NC-SA 4.0 Unported for the writing.
+Code is [MIT](LICENSE) Licensed © Richard Littauer 2016. All content licensed under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 Ported License](http://creativecommons.org/licenses/cc-by-sa/4.0/).
