@@ -86,7 +86,8 @@ footer img {
 
 /* Page header tweaks */
 .page-header {
-  border-bottom: 0px;
+  border-bottom: 1px solid #999;
+  margin: 20px 0px 20px 30px;
 }
 .page-header h1 {
   font-family: 'Open Sans', sans-serif;
@@ -211,6 +212,10 @@ hr.divider {
     font-weight: 600;
     padding-top: 20px;
   }
+  h3.follow-author {
+    text-align: center;
+    font-size: 1.5em;
+  }
   a {
     color: #666;
     font-weight: 400;
@@ -229,7 +234,13 @@ hr.divider {
       max-width: 100%;
     }
   }
+  .social-media {
+    text-align: center;
+    padding: 0px;
+  }
 }
+
+
 
 .title {
   margin: 80px auto 25px 100px;
@@ -242,7 +253,6 @@ hr.divider {
 
 .social-media {
   margin-top: 30px;
-  text-align: center;
   a {
     padding: 0 20px 0 20px;
     color: #000;
@@ -255,6 +265,7 @@ hr.divider {
 }
 
 .post-sm {
+  padding-left: 0px;
   a {
     padding-left: 0px;
   }
@@ -267,8 +278,16 @@ img.post-image {
   border-radius: 50%;
 }
 
+.follow-author {
+  text-align: center;
+  font-size: 1.5em;
+}
+
 /* ===== Index Page ===== */
 #index {
+  .post p.social-media {
+    text-align: center;
+  }
   .projects {
     margin-bottom:100px;
   }
@@ -414,9 +433,6 @@ img.post-image {
       color: red;
     }
   }
-  .follow-author {
-    text-align: center;font-size: 1.5em;
-  }
   .made-with-love {
     margin:50px 0px; text-align:center;
   }
@@ -446,7 +462,7 @@ img.post-image {
   }
 }
 
-.post-image {
+.inner-post-image {
   padding: 30px 0;
 }
 
@@ -526,6 +542,7 @@ input[type="submit"] {
       font-size: 1.3em;
     }
     .social-media {
+      text-align: center;
       a {
         padding: 0 20px 0 20px;
       }

@@ -1,7 +1,7 @@
-<div class="page-header" style="border-bottom: 1px solid #999; margin: 20px 0px 20px 30px;">
+<div class="page-header">
   <img src="{{ BASE_PATH }}/assets/img/posts/{{ page.image }}" class="post-image" />
   <h1>{{ page.title }}</h1>
-  {% if page.twitter or page.instagram %}<p class="social-media post-sm" style="padding-left: 0px;">
+  {% if page.twitter or page.instagram %}<p class="social-media post-sm">
     {% if page.twitter %}<a href="https://twitter.com/{{ page.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if page.instagram %}<a href="https://instagram.com/{{ page.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
   </p>
   {% endif %}
@@ -16,8 +16,8 @@
       {{ content }}
 
       {% if page.twitter or page.instagram %}
-      <h3 style="text-align: center;font-size: 1.5em;">Follow {{ page.author }} here:</h3>
-       <p class="social-media" style="text-align: center;">
+      <h3 class="follow-author">Follow {{ page.author }} here:</h3>
+       <p class="social-media">
         {% if page.twitter %}<a href="https://twitter.com/{{ page.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if page.instagram %}<a href="https://instagram.com/{{ page.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
       </p>
       {% endif %}

@@ -70,8 +70,8 @@
 
     <!-- Le styles -->
     <link href="{{ HOME_PATH }}/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="{{ HOME_PATH }}/assets/css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="../assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <link rel="shortcut icon" href="{{ HOME_PATH }}/favicon.png">
 
@@ -100,9 +100,7 @@
 
 
       <footer>
-        <p>{{ site.author.name }} &copy; <script type="text/javascript">
-          document.write(new Date().getFullYear());
-        </script>.
+        <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
           <a href="{{ site.github }}" class="muted-footer-link">Source</a>.
         </p>
       </footer>
