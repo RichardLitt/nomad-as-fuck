@@ -8,6 +8,8 @@ gems:
   - jekyll-redirect-from
 highlander: true
 markdown: kramdown
+sass:
+    sass_dir: _sass
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -109,6 +111,7 @@ JB :
   #
   analytics :
     provider : google
+    # I set this manually in ga.js
     google :
         tracking_id : 'UA-80185966-1'
     #getclicky :
