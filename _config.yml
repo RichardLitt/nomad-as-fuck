@@ -113,7 +113,7 @@ JB :
     provider : google
     # I set this manually in ga.js
     google :
-        tracking_id : 'UA-80185966-1'
+        tracking_id : 'UA-4124866-43'
     #getclicky :
       #site_id :
     #mixpanel :
@@ -137,4 +137,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-
