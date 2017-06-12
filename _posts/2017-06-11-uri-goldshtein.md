@@ -17,6 +17,7 @@ Israel
 
 ### What do you do?
 Self employed programmer and manager. 
+Working at Meteor on the Apollo team.
 The founder of The Guild.
 Guitar player and former teacher.
 
