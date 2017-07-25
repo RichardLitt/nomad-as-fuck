@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Asad Zulfahri"
-author: ""
+author: "Asad Zulfahri"
 link: "https://asadzulfahri.com"
 twitter: "https://twitter.com/asadzulfahri"
 instagram: "https://intagram.com/asadzulfahri"
 github: "https://github.com/asadzulfahri"
 image: "asad.jpg"
 category: post
-tags: []
+tags: [digital nomad, coder]
 date: 2017-07-25-09-48
 ---
 {% include JB/setup %}
