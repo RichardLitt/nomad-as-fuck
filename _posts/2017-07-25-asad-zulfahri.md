@@ -3,9 +3,9 @@ layout: post
 title: "Asad Zulfahri"
 author: "Asad Zulfahri"
 link: "https://asadzulfahri.com"
-twitter: "https://twitter.com/asadzulfahri"
-instagram: "https://intagram.com/asadzulfahri"
-github: "https://github.com/asadzulfahri"
+twitter: "asadzulfahri"
+instagram: "asadzulfahri"
+github: "asadzulfahri"
 image: "asad.jpg"
 category: post
 tags: [digital nomad, coder]
