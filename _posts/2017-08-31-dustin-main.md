@@ -5,7 +5,6 @@ author: "Dustin Main"
 link: "https://dustinmain.com"
 twitter: "dustinmain"
 instagram: "dustinmain"
-github: ""
 image: "dustin.jpg"
 category: post
 tags: []
