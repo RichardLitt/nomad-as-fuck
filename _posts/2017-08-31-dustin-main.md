@@ -6,13 +6,12 @@ link: "https://dustinmain.com"
 twitter: "dustinmain"
 instagram: "dustinmain"
 github: ""
-image: "dustin."
+image: "dustin.jpg"
 category: post
 tags: []
 date: 2017-08-31-19-45
 ---
 {% include JB/setup %}
-
 
 ### Where are you from?
 Saskatoon, Sk Canada
