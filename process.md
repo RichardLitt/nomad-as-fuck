@@ -14,6 +14,7 @@
     rake post title="name" site="" twitter="name" github="name" instagram="name"
 
 - [ ] Add photos
+  - [ ] Move them to src/img/posts/
   - [ ] Name them name.jpg and name-alt.jpg (and name-alt2.jpg)
   - [ ] Square the name.jpg one using Photoshop
   - [ ] Resize to be modest
