@@ -35,7 +35,7 @@ Oh, and the deer. I saw a deer at Yosemite. That was too cool. (cue photo)
 
 I’m someone who craves structure, as it definitely makes me more productive. Back home I had a studio with a huge Mac, all the tech, my favourite breakfast joints and coffee shops a stone’s throw away and a rigid routine. Now, I’m waking up in different hotels every month with my wonderful setup scaled down to a laptop and tablet in a bag and no cereal for breakfast. It’s difficult, but it’s part of the challenge.
 
-  <img src="{{ BASE_PATH }}/assets/img/posts/dale-alt.jpg" class="inner-post-image" />
+<img src="{{ BASE_PATH }}/assets/img/posts/dale-alt.jpg" class="inner-post-image" />
 
 ### What's your craziest story?
 
@@ -43,4 +43,4 @@ I’ll save the alcohol-induced ones for another time, but for me one particular
 
 ### What's next for you?
 
-Once our current Hacker Paradise program finishes in Jeju we move on to Seoul, Chiang Mai and Bali just before Christmas. In parallel to running operations on the ground I’m also working on a book of all of my design and illustration work from the past six years. Not to sell commercially, just for myself to look back at everything I’ve worked on. Oh, and keep your eyes peeled for Hacker Paradise’s spring trips, being announced very soon!
+Well, actually, that's an interesting question. Because Richard failed to post this for a year, and things have changed significantly. I've been all over the world now, and am going to Da Nang and Ubud next. Richard was actually so dilatory in updating this, that Dale asked him to write this paragraph up, so he's going to say something for Dale that is completely inoffensive and dull, like: I can't wait to see what's next in store for me!
