@@ -19,7 +19,7 @@ Contrary to common belief, the UK isn’t just a giant city called London. I’m
 
 ### What do you do?
 
-I’m a former lecturer, illustrator and head of content at Hacker Paradise
+I’m a former lecturer, illustrator and head of content at Hacker Paradise.
 
 ### How are you nomadic?
 
