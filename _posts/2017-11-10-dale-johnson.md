@@ -9,7 +9,7 @@ github: ""
 image: "dale.png"
 category: post
 tags: [dale, hackerparadise]
-date: 2017-10-20-10-02
+date: 2017-11-20-09-02
 ---
 {% include JB/setup %}
 
