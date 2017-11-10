@@ -5,7 +5,6 @@ author: "Dale Johnson"
 link: "https://hackerparadise.com"
 twitter: "thedaleydoodle"
 instagram: "thedaleydoodle"
-github: ""
 image: "dale.png"
 category: post
 tags: [dale, hackerparadise]
