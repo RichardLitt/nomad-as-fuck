@@ -24,6 +24,7 @@
 
     <img src="{{ BASE_PATH }}/assets/img/posts/name-alt.jpg" class="inner-post-image" />
 
+  - [ ] Push photos up to the server, so that they'll be there in the test-run
 - [ ] Copy text into the post
 - [ ] Edit it, add `###` headers
 - [ ] Edit metadata
