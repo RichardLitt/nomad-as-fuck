@@ -21,7 +21,7 @@ I’m from the good ol’ Midwest — a super small town in Indiana to be exact,
 
 ### What do you do?
 
-This is such a great question to someone who has a normal job. It’s funny, when I was in the startup grind back in the day when I lived in San Francisco asking this question was pretty much the way that people said hello. 
+This is such a great question for someone who has a normal job. It’s funny, when I was in the startup grind back in the day when I lived in San Francisco asking this question was pretty much the way that people said hello. 
 
 But, being that I’m a nomad at it’s truest definition, it’s a little harder to articulate what I do these days. Like I said, in the past I lived in San Francisco and dove head-first into the startup scene and eventually made my way through some good and some not-so-good startups on my way to working for Lyft as one of their first 75 employees. Lyft is what I would consider to be one of the magical startups and working there was like hitting the Silicon Valley lottery. Great people, awesome product, and amazing office/culture. With Lyft I was able to travel to Manila in the Philippines and work on some operations projects for a couple of years, which is what really kicked off the nomadic lifestyle that I have today. 
 
