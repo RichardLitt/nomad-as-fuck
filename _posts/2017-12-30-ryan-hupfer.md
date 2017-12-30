@@ -28,6 +28,7 @@ But, being that I’m a nomad at it’s truest definition, it’s a little harde
 
 I guess the last year was kinda unique as I really didn’t work a “real” job and instead decided to move to China to learn Mandarin. I still managed some smaller projects online to keep a little bit of money rolling in, but the couple years before I was able to save enough cash to not really have to worry about working for a while. Honestly, I can’t imagine trying to learn Mandarin while working a full-time job - there’s no way I could do that.
 
+One example of how I make some cash while traveling is [my Fiverr page](https://www.fiverr.com/ryanhupfer/create-custom-pixel-art-versions-of-you-and-your-family) where me and my team of designers create different types of pixel art. Here's [a fun video](https://youtu.be/-KjzTJShYaM) that we animated to announce when I was traveling to China.
 
 ### How are you nomadic?
 
@@ -77,4 +78,4 @@ After Christmas we’re going to rent a car to drive across the southern part of
 
 Finally, after hanging with the family again for a while I have a feeling I’ll be heading back to China to continue learning Mandarin. I’m already at a decent day-to-day level, but still need some more time if I’m going to be anywhere near fluency (which would be game-changing). It’s not going to be easy, but I love the challenge of learning and living in China is the only way I feel like I can make it happen. 
 
-Well, that’s it for me — if you want to chat about learning Mandarin or need a good school recommendation, please send me an email at ryan.hupfer@gmail.com or hit me up on one of the ways below. Thanks and here’s to all of my fellow nomads out there — keep living life and above it all, keep it weird. 
+Well, that’s it for me — if you want to chat about learning Mandarin or need a good school recommendation, please send me an email at ryan.hupfer@gmail.com or hit me up on [YouTube](https://www.youtube.com/channel/UCrtCq6bD6-mkTx_VEDdhJAQ/videos?view_as=subscriber) or [Facebook](https://www.facebook.com/ryanhupfer). Thanks and here’s to all of my fellow nomads out there — keep living life and above it all, keep it weird. 
