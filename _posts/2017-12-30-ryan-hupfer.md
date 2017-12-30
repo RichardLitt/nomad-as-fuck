@@ -5,6 +5,7 @@ author: "Ryan Hupfer"
 link: "http://ryanhupfer.com"
 image: "ryan/ryan.png"
 twitter: "hup"
+instagram: "ryanhupfer"
 category: post
 tags: [nomad, chinese]
 date: 2017-12-30-11-30
