@@ -16,7 +16,7 @@
       {{ content }}
 
       {% if page.twitter or page.instagram %}
-      <h3 class="follow-author">Follow {{ page.author }} here:</h3>
+      <h3 class="follow-author">Follow {{ page.title }} here:</h3>
        <p class="social-media">
         {% if page.twitter %}<a href="https://twitter.com/{{ page.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if page.instagram %}<a href="https://instagram.com/{{ page.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}{% if page.github %}<a href="https://github.com/{{ page.github }}"><i class="fa fa-github"></i></a>{% endif %}
       </p>
