@@ -30,16 +30,6 @@ jekyll serve
 
 Go to `localhost:4000`.
 
-## Posting to Nomad As Fuck
-
-- Make a PR with the person's profile and photo filled out.
-- Get them to review it. Provide a staging site, if possible.
-- Merge it.
-- Check that it works on the site.
-- Post to Twitter.
-- Post to Instagram.
-- Post to Newsletter.
-
 ## License
 
 Code is [MIT](LICENSE) Licensed © Richard Littauer 2016. All content licensed under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 Ported License](http://creativecommons.org/licenses/cc-by-sa/4.0/).
