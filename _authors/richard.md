@@ -8,7 +8,7 @@ outbound: http://burntfen.com
 twitter: richlitt
 instagram: richlittv3
 medium: richlitt
-email: richard.littauer+nomadasfuck@gmail.com
+email: richard@nomadasfuck.com
 ---
 {% include JB/setup %}
 
