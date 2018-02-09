@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Ken Flannery"
-author: "Ken Flannery"
 link: "http://hobolifestyle.com"
 twitter: "hobolifestyle"
 instagram: "hobolifestyle"

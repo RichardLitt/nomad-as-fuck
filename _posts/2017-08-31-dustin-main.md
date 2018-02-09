@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Dustin Main"
-author: "Dustin Main"
 link: "https://dustinmain.com"
 twitter: "dustinmain"
 instagram: "dustinmain"
 image: "dustin.jpg"
 category: post
-tags: []
 date: 2017-08-31-19-45
 ---
 {% include JB/setup %}

@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Uri Goldshtein"
-author: "Uri Goldshtein"
 category: post
 link: "https://angular-meteor.com/"
 twitter: UriGoldshtein
-tags: [digital nomad, remote worker, tech]
 date: 2017-06-11-18-48
 image: uri.jpg
 ---

@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Scotty Allen"
-author: "Scotty Allen"
 category: post
 link: "https://strangeparts.com/"
 twitter: scottyallen
-tags: [digital nomad, remote worker, tech]
 date: 2017-06-25-14-51
 image: scotty.jpg
 ---

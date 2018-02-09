@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "José Ferrer"
-author: "José Ferrer"
 link: "https://moviendo.me"
 twitter: "joseferrer"
 instagram: "moviendome"
 image: "jose.jpg"
 category: post
-tags: [jose]
 date: 2017-10-30-21-49
 ---
 {% include JB/setup %}
