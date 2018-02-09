@@ -152,12 +152,6 @@ a {
       margin-left: 30px;
     }
   }
-  &.muted-footer-link {
-    color: #666;
-    &:hover {
-      color: red;
-    }
-  }
 }
 
 hr.divider {
@@ -459,6 +453,12 @@ img.post-image {
   }
   .mail-to {
     font-size: 1.5em; padding: 50px 0px; text-align: center;
+  }
+  .alt-icon {
+    color: #FFF;
+    &:hover {
+      color: red;
+    }
   }
 }
 
