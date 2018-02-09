@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Dale Johnson"
-author: "Dale Johnson"
 link: "https://hackerparadise.com"
 twitter: "thedaleydoodle"
 instagram: "thedaleydoodle"
 image: "dale.png"
 category: post
-tags: [dale, hackerparadise]
 date: 2017-11-10-09-02
 ---
 {% include JB/setup %}

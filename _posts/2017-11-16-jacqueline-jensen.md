@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Jacqueline Jensen"
-author: "Jacqueline Jensen"
 link: "https://about.me/jackiemjensen"
 twitter: "jackiemjensen"
 instagram: "jackiemjensen"
 image: "jacqueline.png"
 category: post
-tags: []
 date: 2017-11-16-15-18
 ---
 {% include JB/setup %}

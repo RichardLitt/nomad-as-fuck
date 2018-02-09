@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Lauren Carey"
-author: "Lauren Carey"
 link: "http://www.girlgoneabroad.com/"
 twitter: "girlgoneabroad"
 instagram: "girlgoneabroad"
 image: "lauren.jpg"
 category: post
-tags: [nomad, girl]
 date: 2017-09-04-16-52
 ---
 {% include JB/setup %}

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Michelle Wintersteen"
-author: "Michelle Wintersteen"
 link: "https://mkwgraphics.com"
 twitter: "mkwgraphics"
 instagram: "mkwgraphics"
 image: "michelle.png"
 category: post
-tags: [graphics]
 date: 2017-12-08-15-41
 ---
 {% include JB/setup %}

@@ -18,19 +18,19 @@
       <meta name="description" content="{{ page.description }}">
       <meta property="og:description" content="{{ page.description }}" />
       <meta name="twitter:description" content="{{ page.description }}">
-    {% elsif page.title and page.author %}
-      <meta name="description" content="A new post by {{ page.author }} is totally {{ site.title }}">
-      <meta property="og:description" content="{{ page.author }} is totally {{ site.title }}">
-      <meta name="twitter:description" content="{{ page.author }} is totally {{ site.title }}">
+    {% elsif page.title %}
+      <meta name="description" content="A new post by {{ page.title }} is totally {{ site.title }}">
+      <meta property="og:description" content="{{ page.title }} is totally {{ site.title }}">
+      <meta name="twitter:description" content="{{ page.title }} is totally {{ site.title }}">
     {% else %}
       <meta property="og:description" content="{{ site.tagline }}">
       <meta name="twitter:description" content="{{ site.tagline }}">
       <meta name="description" content="{{ site.tagline }}">
     {% endif %}
 
-    {% if page.author %}
-    <meta name="author" content="{{ page.author }}">
-    <meta name="copyright" content="&copy; {{ page.author }} 2016">
+    {% if page.title %}
+    <meta name="author" content="{{ page.title }}">
+    <meta name="copyright" content="&copy; {{ page.title }} 2016">
     {% else %}
     <meta name="copyright" content="&copy; {{ site.author.name }} 2016">
     <meta name="author" content="{{ site.author.name }}">

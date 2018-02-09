@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Jessica Buck"
-author: "Jessica Buck"
 link: "http://www.jlbwork.me"
 instagram: "jbuckk"
 image: "buck.jpg"
 category: post
-tags: []
 date: 2017-12-15-16-54
 ---
 {% include JB/setup %}
