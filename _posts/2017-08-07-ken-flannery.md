@@ -27,7 +27,7 @@ I like being able to jump on just about any opportunity that comes up. I don't s
 
 I don't get to try all the beer I brew, it's sad, but true. I learned how to brew while traveling and have had many opportunities to show other people how as well. From the time you brew to the time you drink can be around a month, so often I'm gone by the time it's ready and I don't always get a chance to circle back while it's still fresh. As a result I've gotten into the habit of brewing stronger and more robust beers that are meant to age well, this at least gives me a better chance of getting a chance to try it (assuming there's any left by the time I get back).
 
-<img src="{{ BASE_PATH }}/assets/img/posts/ken-alt.jpg" class="inner-post-image" />
+<img data-src="{{ BASE_PATH }}/assets/img/posts/ken-alt.jpg" class="inner-post-image lazyload" />
 
 ### What's your craziest story?
 

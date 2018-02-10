@@ -20,7 +20,7 @@ I’m working for an American tech start up as a content editor and layout speci
 
 I haven’t lived in the States for three years, but two of those years were spent living in Bangkok, Thailand. The last year has been fully nomadic however, and I’ve hit 17 countries in a 12 month period. I’ve bounced from Southeast Asia to Europe to South America and now Central America. I’m currently posted up in Santa Teresa, Costa Rica with a group called the [Wifi Tribe](http://wifitribe.co/). It’s a co-living/co-working community of digital nomads that slow travel the world together. Pretty sweet!
 
-<img src="{{ BASE_PATH }}/assets/img/posts/lauren-alt.jpg" class="inner-post-image" />
+<img data-src="{{ BASE_PATH }}/assets/img/posts/lauren-alt.jpg" class="inner-post-image lazyload" />
 
 ### What's your favorite part of being a nomad?
 

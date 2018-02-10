@@ -32,7 +32,7 @@ Oh, and the deer. I saw a deer at Yosemite. That was too cool. (cue photo)
 
 I’m someone who craves structure, as it definitely makes me more productive. Back home I had a studio with a huge Mac, all the tech, my favourite breakfast joints and coffee shops a stone’s throw away and a rigid routine. Now, I’m waking up in different hotels every month with my wonderful setup scaled down to a laptop and tablet in a bag and no cereal for breakfast. It’s difficult, but it’s part of the challenge.
 
-<img src="{{ BASE_PATH }}/assets/img/posts/dale-alt.jpg" class="inner-post-image" />
+<img data-src="{{ BASE_PATH }}/assets/img/posts/dale-alt.jpg" class="inner-post-image lazyload" />
 
 ### What's your craziest story?
 

@@ -37,7 +37,7 @@ It's also a great conversation starter. People are always intrigued by the conce
 
 It's amazing how technology allows people to a have full-time job while traveling. Yes, it's fun traveling all around the world, but it's not all fun and games, you need a job to be able to support it! I appreciate being able to move around and going wherever and whenever I want to. Free from the confines of mundane regularity. Now that is the ultimate freedom.
 
-<img src="{{ BASE_PATH }}/assets/img/posts/asad-alt.jpg" class="inner-post-image" />
+<img data-src="{{ BASE_PATH }}/assets/img/posts/asad-alt.jpg" class="inner-post-image lazyload" />
 
 ### What's your least favorite part?
 Some would say the not so fun part about traveling is taking economy flights but I actually enjoy flying (even if it's in coach!). The least favorite part for me is resetting my mind when moving to a new city. This is why I joined travel programs such as Hacker Paradise and [We Roam](https://asadzulfahri.com/blog/we-roam-review-polaris-2017/). They help reduce that stress a lot. Everything from logistics, accommodation to co-working spaces are all taken care of.
@@ -56,4 +56,4 @@ Though I did almost die. I was hiking up to Machu Picchu with slip-on shoes. Tha
 ### What's next for you?
 For fun, more traveling of course! I have a pretty hectic schedule ahead of me. Moving to different continents while flying over the Atlantic and the Indian Ocean several times. Next year I'd like to travel more independently or with a smaller group of people. I've now gained enough friends all over the world that I believe I'll be able to rally a few of them to go on a world adventure with me.
 
-<img src="{{ BASE_PATH }}/assets/img/posts/asad-barcelona.jpg" class="inner-post-image" />
+<img data-src="{{ BASE_PATH }}/assets/img/posts/asad-barcelona.jpg" class="inner-post-image lazyload" />
