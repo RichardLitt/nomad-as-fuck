@@ -4,53 +4,58 @@
 
 - [ ] Email them the questions
 - [ ] Get the response
-- [ ] Figure out a schedule
-- [ ] Put it in calendar
 
 ## Adding to Website
 
-- [ ] Create a post
+- [ ] Create a post by running:
+   
+   `rake post title="name" site="www.example.com" twitter="name" github="name" instagram="name"`
 
-    rake post title="name" site="" twitter="name" github="name" instagram="name"
+- [ ] Copy text into the post
+- [ ] Edit it, add `###` headers etc.
+- [ ] Edit metadata
 
 - [ ] Add photos
-  - [ ] Move them to src/img/posts/
+  - [ ] For PNG format, go to [tiny png](https://tinypng.com/) and shrink images 
+  - [ ] Place images in src/img/posts/
   - [ ] Name them name.jpg and name-alt.jpg (and name-alt2.jpg)
-  - [ ] Square the name.jpg one using Photoshop
+  - [ ] Square the name.jpg one using Photoshop. This will be used as the portrait
   - [ ] Resize to be modest
   - [ ] Run `gulp`
-  - [ ] Add image name to metadata in post
-  - [ ] Copy this into a nice part of the post:
+  - [ ] Add image name.jpg to metadata in post
+  - [ ] Add images to a nice part of the post by copying the link bellow and replacing <image-name> (ex: name-alt1.jpg)
+  
+    <img data-src="{{ site.url }}/assets/img/posts/<image-name> class="inner-post-image lazyload" />
 
-    <img src="{{ BASE_PATH }}/assets/img/posts/name-alt.jpg" class="inner-post-image" />
+- [ ] Test run locally by running `jekyll serve`
+    - [ ] Review and edit 
 
-  - [ ] Push photos up to the server, so that they'll be there in the test-run
-- [ ] Copy text into the post
-- [ ] Edit it, add `###` headers
-- [ ] Edit metadata
-- [ ] Test run. NB: Images don't work locally. See https://github.com/RichardLitt/nomad-as-fuck/issues/23
+- [ ] Create a branch `feat/namePost` and push to GitHub
+- [ ] Log into netlify and launch deploy preview 
+    - [ ] Final review and edit
+- [ ] Create a PR 
 
-    jekyll serve
-
-
-- [ ] Push to GitHub `master`
 - [ ] Email the author and tell them it is up
   - [ ] Ask them for more refs
 
 ## Posting online
 
-### Twitter
-- [ ] Log into @nomadasfuck on Twitter on an incognito window
-- [ ] Post some bullshit. Link to the author.
+- [ ] Log into buffer
+- [ ] Go to @nomadasfuck Twitter
+    - [ ] Add a cool image
+    - [ ] Write something awesome
+    - [ ] Add a link to the post (shorten with [bitly](https://bitly.com/))
+    - [ ] Add hashtags 
+    - [ ] Set to send Friday @ 3:00pm __(EST)__
 
-### Instagram
-- [ ] Go to the post URL on your phone
-- [ ] Save an image
-- [ ] Log in to @nomadasfuck on Instagram
-- [ ] Post the image, with any hashtags you want. Tag the author.
-
-### Mailchimp
-- [ ] Log into Mailchimp
-- [ ] Choose any name
-- [ ] Choose any template
-- [ ] Link to the post
+- [ ] Go to nomadasfuck Instagram
+    - [ ] Add a pic
+    - [ ] Adda link and tell people to come check it out! 
+    - [ ] Grab a memorable quote and paste it in
+    - [ ] Add some hashtags 
+    - [ ] Set up the post for 5:00pm (EST) 
+    - [ ] Post and tag the author *(see note bellow) 
+     
+    `*Note`: Buffer does not post automatically to Instagram. Rather, buffer will send a prompt at the scheduled time to complete the post. 
+       
+`Note`: A Mailchimp campaign is set to check for updates via RSS and automatically send any new posts via email once a week on Tuesday at 10:00am (EST).
