@@ -35,7 +35,7 @@ The rest of my time, I travel mostly in SE Asia, but also short stints in Europe
 
 The freedom to be where I want, when I want. I love being able to choose my location based on the season, how I want to spend my time, where my friends are, or just on a whim. And if I get tired of being on constantly on the move, I just slow down and put some roots down somewhere for a while. If I get bored or tired of a place, I have the freedom to just pick up and move on to the next adventure. This also means I can choose my locations based on what’s most conducive to what I want to accomplish. Shenzhen is hands down the best place to make electronics, so I go there when I have a good idea. Sitting on a beach in Bali is a great place for heads down grinding out a piece of creative work, such as editing a big video. And San Francisco is great for making connections and keeping a finger on the pulse of the tech community. I also the freedom to spend as much time with family and friends as I like, which is really nice.
 
-<img src="{{ BASE_PATH }}/assets/img/posts/scotty-alt.jpg" class="inner-post-image" />
+<img data-src="{{ BASE_PATH }}/assets/img/posts/scotty-alt.jpg" class="inner-post-image lazyload" />
 
 ### What's your least favorite part?
 

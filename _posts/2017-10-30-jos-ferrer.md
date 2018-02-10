@@ -23,7 +23,7 @@ In 2015, I joined [Hacker Paradise](https://www.hackerparadise.org/) for two mon
 
 Now and after 7 months living in my hometown I’ve decided to start traveling again, starting in the Indian Himalayas with [Remote Explorers](http://remoteexplorers.com/). Here I’ve had the opportunity to experiment India in a different way and I’ve enjoyed a quiet time in a beautiful environment. I even had the opportunity to listen to Dalai Lama in a 4-day teaching at the Dalai Lama’s Temple.
 
-<img src="{{ BASE_PATH }}/assets/img/posts/jose-alt.jpg" class="inner-post-image" />
+<img data-src="{{ BASE_PATH }}/assets/img/posts/jose-alt.jpg" class="inner-post-image lazyload" />
 
 ### What's your favorite part of being a nomad?
 Where do I begin… Freedom, live in exotic places that maybe I’d never visited, meet people from different countries, know different cultures and realize that I really can live only with things that I carry in my backpack.

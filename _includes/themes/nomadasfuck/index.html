@@ -69,7 +69,7 @@
           <div class="post">
             {% for post in site.posts | sort: 'date' | limit:1 %}
               <a href="{{ HOME_PATH }}{{ post.url }}">
-                <img src="{{ HOME_PATH }}/assets/img/posts/{{ post.image }}" class="post-image" />
+                <img data-src="{{ HOME_PATH }}/assets/img/posts/{{ post.image }}" class="post-image lazyload" />
               </a>
 
               <a href="{{ HOME_PATH }}{{ post.url }}" class="post-title">
@@ -116,7 +116,7 @@
                   <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 site-authors">
                       <div class="img-container">
                         <a href="{{HOME_PATH}}{{ author.url }}">
-                          <img src="{{HOME_PATH}}/assets/img/authors/{{ author.image }}" class="card-image"/>
+                          <img data-src="{{HOME_PATH}}/assets/img/authors/{{ author.image }}" class="card-image lazyload"/>
                         </a>
                       </div>
                       <a class="author-name" href="{{ HOME_PATH }}{{ author.url }}">
@@ -186,5 +186,8 @@
     <script type='text/javascript' src="assets/js/mailchimp-validation.js"></script>
 
     <script type="text/javascript" src="{{ HOME_PATH }}/assets/js/ga.js"></script>
+
+    <script src="{{ HOME_PATH }}/assets/js/lazysizes.min.js" async=""></script>
+
   </body>
 </html>
