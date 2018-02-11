@@ -19,7 +19,9 @@ npm i
 
 ### Images
 
-Add images to `src/`. Then, run `gulp`. This will minify them and put them into assets.
+Install [GraphicsMagick](http://www.graphicsmagick.org/index.html) before adding images for the first time. Installation instructions are available [here](https://www.npmjs.com/package/gulp-image-resize#graphicsmagick-or-imagemagick).
+
+Add images to `src/`. Then, run `gulp`. This will resize, format and minify them and put them into assets.
 
 
 ## Run
