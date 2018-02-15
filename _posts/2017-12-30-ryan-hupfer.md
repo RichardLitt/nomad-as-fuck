@@ -66,7 +66,7 @@ My other favorite story is when I first traveled to China a couple of years ago 
 
 But, if that wasn’t crazy enough, I then decided to continue walking by myself past the newly restored wall and into the older, more dangerous part that you’re really not supposed to walk on. After a couple more hours I met a couple (the only people I saw on the wall the entire time) who told me about a small village I could walk to and stay the night at (which I hadn’t planned on doing). It sounded good to me and for the next 16 hours I would find the village, figure out where to stay there, get directions to a bus the next morning, and thanks to several friendly Chinese strangers eventually find my way back to my hostel in Beijing after 4 hours of bus rides. Oh, all of this without being able to speak a word in Chinese. A friend of mine [published a full story about this](http://thesoup.website/thelifedesk/2016/10/20/so-how-was-your-holiday) on her website, so you can check it out if you want. 
 
-But yeah, crazy is very common these days, which I like. You have to keep it weird and keep it a little crazy, right? :)
+But yeah, crazy is very common these days, which I like. You have to keep it weird and keep it a little crazy, right? 🙂
 
 
 ### What's next for you?
