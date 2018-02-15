@@ -37,7 +37,7 @@ miss them and what to spend time next to them.  New people you meet don't cover 
 Working with people who don't know what they want. Then they need you to be more present and tell them what to do and that takes time.  I like working with people who know what they want and just do it. They don't need management or conversations.
 
 ### What's your craziest story?
-The reason I started all of this was just because of a bag.  I was working in New York with you ([@richlitt](https://twitter.com/richlitt)) :)  and this other amazing Australian dude. Then one day he started coming to work with this really cool bag that looked like a turtle shell ([cote & ciel](http://amzn.to/2rZk8Wu)).  I just looked at this bag and decided instantly that I'm going to buy one and live with everything just in this bag. And a month later, that was exactly what happened.
+The reason I started all of this was just because of a bag.  I was working in New York with you ([@richlitt](https://twitter.com/richlitt)) 🙂 and this other amazing Australian dude. Then one day he started coming to work with this really cool bag that looked like a turtle shell ([cote & ciel](http://amzn.to/2rZk8Wu)).  I just looked at this bag and decided instantly that I'm going to buy one and live with everything just in this bag. And a month later, that was exactly what happened.
 
 ### What's next for you?
 For the past 2 years I've been working part time at Meteor Development Group. Probably the best company to work with in the world for me. 
@@ -45,5 +45,5 @@ I'm doing a lot of open source work there around GraphQL which I'm very excited 
 
 But I'm not really sure about my grand vision anymore. I accomplished a lot of personal goals I had in the past 4 years. Biggest one was having a relationship like I have with my girlfriend but many other things (doing meaningful open source work, traveling around the world, speaking in conferences, doing music again, working with people who are smarter then me and that I can call my friends, etc..)
 So now I'm actually pretty lost.  I'm not sure what's the next big thing I should do....
-I would love some ideas :)
+I would love some ideas 🙂
 
