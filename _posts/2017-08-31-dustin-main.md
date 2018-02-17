@@ -30,7 +30,7 @@ For the autumn and spring months, I usually find myself in Europe, the Middle Ea
 
 Longer term stints usually have me renting an apartment short term (1-2 months) in a location.
 
-<img data-src="{{ BASE_PATH }}/assets/img/posts/dustin-alt.jpg" class="inner-post-image lazyload" />
+<img data-src="{{ site.url }}/assets/img/posts/dustin-alt.jpg" class="inner-post-image lazyload" />
 
 ### What's your favorite part of being a nomad?
 
@@ -47,7 +47,7 @@ I've found that the toughest part in being nomadic has been in fostering romanti
 
 In 2015, I launched a website called "[Date An Adventurer](http://www.dateanadventurer.com/)" to tackle the issue from a different angle.  It went viral shortly after launch and led to meeting many incredible women from around the globe.  It was a reminder for me that if you put yourself out there, people will rally around you to support.
 
-<img data-src="{{ BASE_PATH }}/assets/img/posts/dustin-alt3.jpg" class="inner-post-image lazyload" />
+<img data-src="{{ site.url }}/assets/img/posts/dustin-alt3.jpg" class="inner-post-image lazyload" />
 
 
 ### What's your craziest story?
@@ -64,4 +64,4 @@ There is a lot more to that (and good pictures to boot).  I should write that on
 
 I head to Australia in August, back to Iran in September / October, and Myanmar to round out the year.  Compared to past years, I'm seeing more structure in my year as Lightmoves Creative and my Un-Tours To Myanmar really take off.
 
-<img data-src="{{ BASE_PATH }}/assets/img/posts/dustin-alt2.jpg" class="inner-post-image lazyload" />
+<img data-src="{{ site.url }}/assets/img/posts/dustin-alt2.jpg" class="inner-post-image lazyload" />
