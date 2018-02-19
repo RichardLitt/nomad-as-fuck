@@ -25,7 +25,7 @@ I gave up everything I owned basically in order to travel, and a year later... I
 
 Soaking up the culture in every place. Sometimes it's so different from the place I came from and sometimes is quite similar, but the people are always an experience to interact with and live among.
 
-<img data-src="{{ BASE_PATH }}/assets/img/posts/buck-alt.png" class="inner-post-image lazyload" />
+<img data-src="{{ site.url }}/assets/img/posts/buck-alt.png" class="inner-post-image lazyload" />
 
 ### What's your least favorite part?
 Constant packing and re-packing. Sometimes I get sick of the long bus rides or the up and downs of flying so frequently. But it's worth it once I touch down in a new place!

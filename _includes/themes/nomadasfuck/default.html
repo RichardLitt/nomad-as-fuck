@@ -36,13 +36,13 @@
     <meta name="author" content="{{ site.author.name }}">
     {% endif %}
 
-    <meta property="og:url" content="{{ HOME_PATH }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:type" content="website" />
     {% if page.image %}
-    <meta property="og:image" content="{{ HOME_PATH}}/assets/img/posts/{{ page.image }}" />
+    <meta property="og:image" content="{{ site.url}}/assets/img/posts/{{ page.image }}" />
     {% else %}
-    <meta property="og:image" content="{{ HOME_PATH}}/assets/img/card.png" />
+    <meta property="og:image" content="{{ site.url}}/assets/img/card.png" />
     {% endif %}
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:width" content="794" />
@@ -52,9 +52,9 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="{{ site.author.twitter }}" />
     {% if page.image %}
-    <meta name="twitter:image" content="{{ HOME_PATH}}/assets/img/posts/{{ page.image }}">
+    <meta name="twitter:image" content="{{ site.url}}/assets/img/posts/{{ page.image }}">
     {% else %}
-    <meta name="twitter:image" content="{{ HOME_PATH}}/assets/img/card.png">
+    <meta name="twitter:image" content="{{ site.url}}/assets/img/card.png">
     {% endif %}
 
     <!-- Open Source Protocol -->
@@ -69,11 +69,11 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ HOME_PATH }}/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="{{ HOME_PATH }}/assets/css/custom.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <link rel="shortcut icon" href="{{ HOME_PATH }}/favicon.png">
+    <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
@@ -113,12 +113,12 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ HOME_PATH }}/assets/js/jquery.js"></script>
-    <script src="{{ HOME_PATH }}/assets/js/bootstrap.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery.js"></script>
+    <script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="{{ HOME_PATH }}/assets/js/ga.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/assets/js/ga.js"></script>
 
-    <script src="{{ HOME_PATH }}/assets/js/lazysizes.min.js" async=""></script>
+    <script src="{{ site.url }}/assets/js/lazysizes.min.js" async=""></script>
 
   </body>
 </html>

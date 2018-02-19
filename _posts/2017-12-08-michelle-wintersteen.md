@@ -22,7 +22,7 @@ I am 100% self employed freelancer and all of my work can be done with the adobe
 ### What's your favorite part of being a nomad?
 What I love most about being a nomad is that life becomes comfortably unpredictable. I don't know where I will be in 3 weeks, 3 months or 3 years from now and it's both terrifying and liberating.
 
-<img data-src="{{ BASE_PATH }}/assets/img/posts/michelle-alt.png" class="inner-post-image lazyload" />
+<img data-src="{{ site.url }}/assets/img/posts/michelle-alt.png" class="inner-post-image lazyload" />
 
 ### What's your least favorite part?
 My least favorite part is trying to strike the right balance between work and play. When you're living in a new city, it's really enticing to procrastinate work and go explore but I have to remember to get my work done and keep my clients happy as well.

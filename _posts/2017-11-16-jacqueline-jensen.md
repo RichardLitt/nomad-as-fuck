@@ -31,7 +31,7 @@ Travel has turned into a gateway to a more joyful life. It has helped me underst
 ### What's your least favorite part?
 In that same vein, I get down on myself when I have a difficult time finding curiosity, passion, and awe while traveling. Here I am, in a top 10 city in the world or in a famous museum, and I am worried about something small and silly that won’t matter next week. Traveling amps up the volume on the wonderful, once in a lifetime moments, but it also shines an intense spotlight on the darker parts of yourself. As someone who has battled with depression, simply booking a flight and heading somewhere awesome hasn’t calmed those waters like I thought it would. I find peace when I can accept myself with kindness and release the pressure to live an epic, photo-worthy life all the time.
 
-<img data-src="{{ BASE_PATH }}/assets/img/posts/jacqueline-alt.png" class="inner-post-image lazyload" />
+<img data-src="{{ site.url }}/assets/img/posts/jacqueline-alt.png" class="inner-post-image lazyload" />
 
 ### What's your craziest story?
 Our first group mixer for Remote Year was at the old Swedish Embassy in Prague which was also our coworking space for the month. The architecture was unreal – truly one of the most beautiful buildings I have ever seen. Our group was enjoying getting to know each other in the gardens when an opera singer came out onto a balcony of the building. The group stopped talking to listen to him sing. All of us were curious why an opera singer had joined us. Then, he began to sing happy birthday. And it was my birthday. I saw our Remote Year cohort leads walking across the garden towards me with a cake. It was one of the biggest surprises of my life!
