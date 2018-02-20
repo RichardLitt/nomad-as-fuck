@@ -13,7 +13,9 @@ gulp.task('default', () => {
       upscale : false,
     }))
     .pipe(imagemin([
-      imagemin.jpegtran({progressive: true})],
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng({optimizationLevel: 3}),
+      ],
       {verbose: true}
     ))
     .pipe(gulp.dest('assets/img'));
