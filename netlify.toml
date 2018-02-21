@@ -1,0 +1,5 @@
+[context.deploy-preview]
+command = "gulp && jekyll build --safe --config _config_dev.yml"
+
+[context.branch-deploy]
+command = "gulp && jekyll build --safe --config _config_dev.yml"
