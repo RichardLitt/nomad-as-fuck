@@ -23,10 +23,10 @@
   - [ ] Resize to be modest
   - [ ] Run `gulp`
   - [ ] Add image name.jpg to metadata in post
-  - [ ] Add images to a nice part of the post by copying the link bellow and replacing <image-name> (ex: name-alt1.jpg)
+  - [ ] Add images to a nice part of the post using the code bellow and replacing <image-name> (ex: name-alt1.jpg). Alternative text for the image defaults to "inner post". The default value can be overwritten by adding an alt image attribute. (ex: alt="alt image text")
   
-    <img data-src="{{ site.url }}/assets/img/posts/<image-name> class="inner-post-image lazyload" />
-
+    {% include image.html image="<image-name>" %}
+    
 - [ ] Test run locally by running `jekyll serve`
     - [ ] Review and edit 
 
