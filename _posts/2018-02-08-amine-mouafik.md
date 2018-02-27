@@ -26,7 +26,7 @@ I guess all that combined makes me pretty nomadic! 😜
 ### What's your favourite part of being a nomad?
 Well, it gives you a chance to do and see things as well as meet people you would not have if you'd stayed home. I've stopped counting but I think I've met people from virtually all over through the years. You also get introduced to different cultures and customs. It's really eye-opening to understand that what you once considered normal life is in fact just a drop in the pool of possible ways of life that exist around the world.
 
-I don't have a specific favourite part, but I know I'm grateful for all the incredible things I get to experience by choosing this way-of-life: waking up on a boat to the beautiful scenaries of 🇻🇳 Halong Bay; getting to spend a wild night in the infamous Chung King Mansion of Hong Kong; falling in love with the vibes of George Town in 🇲🇾 Penang...
+I don't have a specific favourite part, but I know I'm grateful for all the incredible things I get to experience by choosing this way-of-life: waking up on a boat to the beautiful scenaries of 🇻🇳 Halong Bay; getting to spend a wild night in the infamous Chung King Mansion of 🇭🇰 Hong Kong; falling in love with the vibes of George Town in 🇲🇾 Penang...
 
 I've always been curious by nature and I just can't stop discovering new places, meeting new people and living new experiences. Being nomad is just my favourite part of being nomad (that's deep, *ain't it*).
 
