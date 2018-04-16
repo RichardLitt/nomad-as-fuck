@@ -3,9 +3,8 @@ layout: post
 title: "Katherine Conaway"
 author: "Katherine Conaway"
 link: "http://amzn.to/2lHoQor"
-twitter: ""
 instagram: "katherineconaway"
-github: ""
+medium: "katherinerc"
 image: "katherine.jpg"
 category: post
 tags: []
