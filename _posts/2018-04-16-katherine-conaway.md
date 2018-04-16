@@ -30,7 +30,7 @@ I love travel because I'm super curious. I love learning, I love being in new pl
 ### What's your least favorite part?
 If only I could have the perfect pillow and bed every night. I can so tell I'm getting older... Also, of course, the fact that I can't be in two places at once. It can be hard to miss friends and family, not be there for special events, not get to just snuggle and giggle with someone I love.
 
-{% include image.html image="katherine-alt.jpg" %}
+<img data-src="{{ site.url }}/assets/img/posts/katherine-alt.jpg" class="inner-post-image lazyload" />
 
 ### What's your craziest story?
 In a way, it's hard for me to even think of any, even though I know I've probably been in hundreds of crazy situations... 
