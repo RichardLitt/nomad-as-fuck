@@ -2,7 +2,7 @@
   <img src="{{ site.url }}/assets/img/posts/{{ page.image }}" class="post-image" />
   <h1>{{ page.title }}</h1>
   {% if page.twitter or page.instagram or page.github %}<p class="social-media post-sm">
-    {% if page.twitter %}<a href="https://twitter.com/{{ page.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if page.instagram %}<a href="https://instagram.com/{{ page.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}{% if page.github %}<a href="https://github.com/{{ page.github }}"><i class="fa fa-github"></i></a>{% endif %}
+    {% if page.twitter %}<a href="https://twitter.com/{{ page.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if page.instagram %}<a href="https://instagram.com/{{ page.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}{% if page.github %}<a href="https://github.com/{{ page.github }}"><i class="fa fa-github"></i></a>{% endif %}{% if page.medium %}<a href="https://medium.com/@{{ page.medium }}"><i class="fa fa-medium" title="Medium"></i></a>{% endif %}
   </p>
   {% endif %}
   <h4>
@@ -18,7 +18,7 @@
       {% if page.twitter or page.instagram %}
       <h3 class="follow-author">Follow {{ page.title }} here:</h3>
        <p class="social-media">
-        {% if page.twitter %}<a href="https://twitter.com/{{ page.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if page.instagram %}<a href="https://instagram.com/{{ page.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}{% if page.github %}<a href="https://github.com/{{ page.github }}"><i class="fa fa-github"></i></a>{% endif %}
+        {% if page.twitter %}<a href="https://twitter.com/{{ page.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if page.instagram %}<a href="https://instagram.com/{{ page.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}{% if page.github %}<a href="https://github.com/{{ page.github }}"><i class="fa fa-github"></i></a>{% endif %}{% if page.medium %}<a href="https://medium.com/@{{ page.medium }}"><i class="fa fa-medium" title="Medium"></i></a>{% endif %}
       </p>
       {% endif %}
     </div>
