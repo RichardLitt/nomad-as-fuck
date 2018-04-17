@@ -1,0 +1,11 @@
+{% if include.sm == "True" %}
+  <p class="social-media post-sm">
+{% else %}
+  <h3 class="follow-author">Follow {{ include.title }} here:</h3>
+  <p class="social-media">
+{% endif %}
+{% if include.twitter %}<a href="https://twitter.com/{{ include.twitter }}" rel="me"><i class="fa fa-twitter"></i></a>{% endif %}
+{% if include.instagram %}<a href="https://instagram.com/{{ include.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
+{% if include.github %}<a href="https://github.com/{{ include.github }}"><i class="fa fa-github"></i></a>{% endif %}
+{% if include.medium %}<a href="https://medium.com/@{{ include.medium }}"><i class="fa fa-medium" title="Medium"></i></a>{% endif %}
+</p>

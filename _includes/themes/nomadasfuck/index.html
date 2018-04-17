@@ -80,12 +80,7 @@
 
               {{ post.content }}
 
-              {% if post.twitter or post.instagram or post.github %}
-              <h3 class="follow-author">Follow {{ post.author }} here:</h3>
-               <p class="social-media">
-                {% if post.twitter %}<a href="https://twitter.com/{{ post.twitter }}" rel="me"><i class="fa fa-twitter"></i></a> {% endif %}{% if post.instagram %}<a href="https://instagram.com/{{ post.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}{% if post.github %}<a href="https://github.com/{{ post.github }}"><i class="fa fa-github"></i></a>{% endif %}
-              </p>
-              {% endif %}
+              {% include social_media.html title=post.title twitter=post.twitter instagram=post.instagram github=post.github medium=post.medium %}
 
             {% endfor %}
           </div>
