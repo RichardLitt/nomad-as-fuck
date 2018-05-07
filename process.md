@@ -50,7 +50,7 @@
 
 - [ ] Go to nomadasfuck Instagram
     - [ ] Add a pic
-    - [ ] Adda link and tell people to come check it out! 
+    - [ ] Add a link and tell people to come check it out! 
     - [ ] Grab a memorable quote and paste it in
     - [ ] Add some hashtags 
     - [ ] Set up the post for 5:00pm (EST) 

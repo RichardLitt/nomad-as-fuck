@@ -5,7 +5,6 @@ author: "Matthew Derrick"
 link: "https://www.squattheplanet.com"
 twitter: "SquatThePlanet"
 instagram: "SquatThePlanet"
-github: ""
 image: "derrick.png"
 category: post
 date: 2018-05-07-15-17
