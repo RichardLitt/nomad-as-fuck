@@ -5,7 +5,7 @@ author: "Gui Perdrix"
 link: "www.colivingdiaries.com"
 twitter: "https://twitter.com/guiperdrix"
 instagram: "https://www.instagram.com/guiperdrix"
-image: ""
+image: "gui.jpg"
 category: post
 tags: [gui, coliving]
 date: 2019-08-07-17-54
